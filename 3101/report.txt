@@ -1,0 +1,54 @@
+ceccs18c09
+Anjana S
+
+--------------------------------
+#1: Aim/task
+t(1) Linux commands
+Command/Shell script/Program name
+
+---------------------------------------------
+#1: Sort a text file
+---------------------------------
+
+Command/Shell script/Program name
+---------------------------------
+
+	sort  abc.txt 
+cut -c 2,5 xyz.txt
+
+cut -b 1,2,3 xyz.txt
+ls
+paste abc.txt xyz.txt
+#2:sort -r abc.txt
+Input #unsorted file 
+abc.txt
+Output:sorted.txt
+grep -c lilly xyz.txt
+
+#3:
+Input:
+cut -b 1,2,3 xyz.txt
+output: Produce the charracter at 1,2,3 bytes
+
+#4:
+Input:cut -c -5 xyz.txt
+Output:Produce first five charracter 
+
+#5:
+Input :grep orange xyz.txt
+Output : check the character orange is present or not
+#6
+Input :grep -c lilly xyz.txt
+Output : count the word liliy occurence in xyz.txt
+#7
+Input:paste abc.txt xyz.txt
+Output: pasdte the content of abc.txt to xyz.txt
+#8
+Input :ls
+Output :  List all files
+#9
+Input : ls -ltr
+Output :List file in reverse order
+
+
+

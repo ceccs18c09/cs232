@@ -1,0 +1,94 @@
+Script started on 2020-01-31 15:28:38+0530
+]0;dell@Dell: ~/ceccs18c09/cs232/3101[01;32mdell@Dell[00m:[01;34m~/ceccs18c09/cs232/3101[00m$ [K]0;dell@Dell: ~/ceccs18c09/cs232/3101[01;32mdell@Dell[00m:[01;34m~/ceccs18c09/cs232/3101[00m$ cat [K [K>[K > abc.txt
+
+
+cat     ^C
+]0;dell@Dell: ~/ceccs18c09/cs232/3101[01;32mdell@Dell[00m:[01;34m~/ceccs18c09/cs232/3101[00m$ cat abc.txt
+1
+2
+3
+4
+6
+8
+9
+
+]0;dell@Dell: ~/ceccs18c09/cs232/3101[01;32mdell@Dell[00m:[01;34m~/ceccs18c09/cs232/3101[00m$ cat >xyz.txt xyz.txt
+^C
+]0;dell@Dell: ~/ceccs18c09/cs232/3101[01;32mdell@Dell[00m:[01;34m~/ceccs18c09/cs232/3101[00m$ ls
+abc.txt  work.txt  xyz.txt
+]0;dell@Dell: ~/ceccs18c09/cs232/3101[01;32mdell@Dell[00m:[01;34m~/ceccs18c09/cs232/3101[00m$ ls-l -l[C
+total 8
+-rw-r--r-- 1 dell dell 15 Jan 31 15:32 abc.txt
+-rw-r--r-- 1 dell dell  0 Jan 31 15:28 work.txt
+-rw-r--r-- 1 dell dell 41 Jan 31 15:34 xyz.txt
+]0;dell@Dell: ~/ceccs18c09/cs232/3101[01;32mdell@Dell[00m:[01;34m~/ceccs18c09/cs232/3101[00m$ ls -lt
+total 8
+-rw-r--r-- 1 dell dell 41 Jan 31 15:34 xyz.txt
+-rw-r--r-- 1 dell dell 15 Jan 31 15:32 abc.txt
+-rw-r--r-- 1 dell dell  0 Jan 31 15:28 work.txt
+]0;dell@Dell: ~/ceccs18c09/cs232/3101[01;32mdell@Dell[00m:[01;34m~/ceccs18c09/cs232/3101[00m$ ls -ltr
+total 8
+-rw-r--r-- 1 dell dell  0 Jan 31 15:28 work.txt
+-rw-r--r-- 1 dell dell 15 Jan 31 15:32 abc.txt
+-rw-r--r-- 1 dell dell 41 Jan 31 15:34 xyz.txt
+]0;dell@Dell: ~/ceccs18c09/cs232/3101[01;32mdell@Dell[00m:[01;34m~/ceccs18c09/cs232/3101[00m$ sort abc.txt
+
+1
+2
+3
+4
+6
+8
+9
+]0;dell@Dell: ~/ceccs18c09/cs232/3101[01;32mdell@Dell[00m:[01;34m~/ceccs18c09/cs232/3101[00m$ sort [K[K[K[K[Ksort -r abc.txt
+9
+8
+6
+4
+3
+2
+1
+
+]0;dell@Dell: ~/ceccs18c09/cs232/3101[01;32mdell@Dell[00m:[01;34m~/ceccs18c09/cs232/3101[00m$ sort -nr abc.txt
+9
+8
+6
+4
+3
+2
+1
+
+]0;dell@Dell: ~/ceccs18c09/cs232/3101[01;32mdell@Dell[00m:[01;34m~/ceccs18c09/cs232/3101[00m$ cut -b 1,2,3,abc.txt[C[1Pabc.txt abc.txt[C[C[C[1P.txt[1P.txt[1P.txtx.txty.txtz.txt[C[C[C[C
+ora
+lil
+]0;dell@Dell: ~/ceccs18c09/cs232/3101[01;32mdell@Dell[00m:[01;34m~/ceccs18c09/cs232/3101[00m$ cut -b -3 xyz.txt
+ora
+lil
+]0;dell@Dell: ~/ceccs18c09/cs232/3101[01;32mdell@Dell[00m:[01;34m~/ceccs18c09/cs232/3101[00m$ cut -c 2,5,[K ab[K[K[K xyz.txt
+rg
+iy
+]0;dell@Dell: ~/ceccs18c09/cs232/3101[01;32mdell@Dell[00m:[01;34m~/ceccs18c09/cs232/3101[00m$ cut [K[K[K[Kcut -c -5 xyz.txt
+orang
+lilly
+]0;dell@Dell: ~/ceccs18c09/cs232/3101[01;32mdell@Dell[00m:[01;34m~/ceccs18c09/cs232/3101[00m$ join abc.txt xyz.txt
+join: abc.txt:8: is not sorted: 
+join: xyz.txt:2: is not sorted: lilly sunflower rose
+]0;dell@Dell: ~/ceccs18c09/cs232/3101[01;32mdell@Dell[00m:[01;34m~/ceccs18c09/cs232/3101[00m$ joi[K[K[Kgrep orange xyz.txt
+[01;31m[Korange[m[K apple banana
+]0;dell@Dell: ~/ceccs18c09/cs232/3101[01;32mdell@Dell[00m:[01;34m~/ceccs18c09/cs232/3101[00m$ https://shapeshed.com/unix-join/https://shapeshed.com/unix-join/grw[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Kgrep -c lilly xyz.txt
+1
+]0;dell@Dell: ~/ceccs18c09/cs232/3101[01;32mdell@Dell[00m:[01;34m~/ceccs18c09/cs232/3101[00m$ https://shapeshed.com/unix-join/[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Kgrrep[K[K[K[Krep-[K -w orange xyz.txt
+[01;31m[Korange[m[K apple banana
+]0;dell@Dell: ~/ceccs18c09/cs232/3101[01;32mdell@Dell[00m:[01;34m~/ceccs18c09/cs232/3101[00m$ pastr[Ke abc.txt xyz.txt
+1	orange apple banana
+2	lilly sunflower rose
+3	
+4	
+6	
+8	
+9	
+	
+]0;dell@Dell: ~/ceccs18c09/cs232/3101[01;32mdell@Dell[00m:[01;34m~/ceccs18c09/cs232/3101[00m$ exit[K[K[K[Kexit
+exit
+
+Script done on 2020-01-31 16:05:08+0530
