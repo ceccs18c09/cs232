@@ -1,0 +1,46 @@
+cec18c09
+Anjana s
+
+
+1.Networking task(t3)
+COmmands
+#ifconfig -a
+#route -n
+#route add default 192.168.02
+#ping 192.168.0.30
+
+---------------------------------
+
+Output: or Input & Output (whichever is applicable)
+ifconfig-a display all avilable network interface
+route -n display kernel routing table
+route add, is used to add a network to the table
+ping used to troubleshoot
+
+-------------------
+Remarks if any:
+
+net-tools was not available. takes time to install so wastes the time
+
+
+
+-------------------------------------
+
+2.FURTHER NETWORKING TASK(t4)
+commands
+rsync
+ssh 
+scp
+output
+ssh -used toremote acces
+
+  
+
+
+#3:
+
+#4:
+
+#5:
+
+
