@@ -37,10 +37,31 @@ ssh -used toremote acces
   
 
 
-#3:
+#3: Scripting task continued
+---------------------------------
 
-#4:
+Command/Shell Script/Program Name
+---------------------------------
 
-#5:
+Input: Downloaded pdf file ofs1 & s2 2019 results
+       result_CHN.pdf,s1.pdf
+       pdftotext -layout result_CHN.pdf
+       grep CHN18CS "s1.txt">S1Cres.txt
+       grep CHN18CS "result_CHN.txt">S2Cres.txt
+       cat S1Cres.txt 
+       cat S2Cres.txt 
+       gedit script.py
+
+--------------------------------
+Output:result_CHN.txt
+       S2Cres.txt
+       S1Cres.txt
+       calculated the cgpa:file:script.py
+
+
+
+Remarks:Completed the task 2.Didnt receive the document with name and register number.
+        Displayed the register number with sgpa and number of subjects failed
+
 
 
