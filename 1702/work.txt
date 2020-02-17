@@ -1,0 +1,70 @@
+Script started on 2020-02-17 09:22:37+0530
+]0;s4c1@user-Vostro-3470: ~/ceccs18c09/cs232/1702[01;32ms4c1@user-Vostro-3470[00m:[01;34m~/ceccs18c09/cs232/1702[00m$ [K]0;s4c1@user-Vostro-3470: ~/ceccs18c09/cs232/1702[01;32ms4c1@user-Vostro-3470[00m:[01;34m~/ceccs18c09/cs232/1702[00m$ ssh s1
+ssh: Could not resolve hostname s1: Name or service not known
+]0;s4c1@user-Vostro-3470: ~/ceccs18c09/cs232/1702[01;32ms4c1@user-Vostro-3470[00m:[01;34m~/ceccs18c09/cs232/1702[00m$ ssh s1[K[Kcs18c09@192.169[K8.0.30
+.
+              |
+.  .    . .-. | .-..-. .--.--. .-.
+ \  \  / (.-' |(  (   )|  |  |(.-'
+  `' `'   `--'` `-'`-' '  '  ` `--'
+cs18c09@192.168.0.30's password: 
+Welcome to elementary OS 0.4.1 Loki (GNU/Linux 4.13.0-32-generic x86_64)
+
+ * Website:  http://elementary.io/
+
+402 packages can be updated.
+0 updates are security updates.
+
+Last login: Fri Feb  7 12:59:03 2020 from 192.168.0.214
+$ rsync -av 1702/test
+sending incremental file list
+rsync: change_dir "/home/cs18c09//1702" failed: No such file or directory (2)
+
+sent 20 bytes  received 12 bytes  64.00 bytes/sec
+total size is 0  speedup is 0.00
+rsync error: some files/attrs were not transferred (see previous errors) (code 23) at main.c(1183) [sender=3.1.1]
+$ gedit report.txt
+Failed to connect to Mir: Failed to connect to server socket: No such file or directory
+Unable to init server: Could not connect: Connection refused
+
+(gedit:13266): Gtk-WARNING **: cannot open display: 
+$ ^[[A    ~
+-sh: 3: /home/cs18c09: Permission denied
+$ ` ~
+-sh: 4: /home/cs18c09: Permission denied
+$ ` exit
+Connection to 192.168.0.30 closed.
+]0;s4c1@user-Vostro-3470: ~/ceccs18c09/cs232/1702[01;32ms4c1@user-Vostro-3470[00m:[01;34m~/ceccs18c09/cs232/1702[00m$ gedit report.txt
+^[[A    ^C
+]0;s4c1@user-Vostro-3470: ~/ceccs18c09/cs232/1702[01;32ms4c1@user-Vostro-3470[00m:[01;34m~/ceccs18c09/cs232/1702[00m$ MAN RSYNC
+MAN: command not found
+]0;s4c1@user-Vostro-3470: ~/ceccs18c09/cs232/1702[01;32ms4c1@user-Vostro-3470[00m:[01;34m~/ceccs18c09/cs232/1702[00m$ MAN RSYNC[K[K[K[K[K[K[K[K[Kn[Kman rsync
+[?1049h[22;0;0t[?1h=rsync(1)                                                                                                                          rsync(1)[m
+[m
+[1mNAME[0m[m
+       rsync - a fast, versatile, remote (and local) file-copying tool[m
+[m
+[1mSYNOPSIS[0m[m
+       Local:  rsync [OPTION...] SRC... [DEST][m
+[m
+       Access via remote shell:[m
+         Pull: rsync [OPTION...] [USER@]HOST:SRC... [DEST][m
+         Push: rsync [OPTION...] SRC... [USER@]HOST:DEST[m
+[m
+       Access via rsync daemon:[m
+         Pull: rsync [OPTION...] [USER@]HOST::SRC... [DEST][m
+               rsync [OPTION...] rsync://[USER@]HOST[:PORT]/SRC... [DEST][m
+         Push: rsync [OPTION...] SRC... [USER@]HOST::DEST[m
+               rsync [OPTION...] SRC... rsync://[USER@]HOST[:PORT]/DEST[m
+[m
+       Usages with just one SRC arg and no DEST arg will list the source files instead of copying.[m
+[m
+[1mDESCRIPTION[0m[m
+       Rsync  is a fast and extraordinarily versatile file copying tool.  It can copy locally, to/from another host over any remote shell,[m
+       or to/from a remote rsync daemon.  It offers a large number of options that control every aspect of its behavior  and  permit  very[m
+       flexible  specification  of the set of files to be copied.  It is famous for its delta-transfer algorithm, which reduces the amount[m
+       of data sent over the network by sending only the differences between the source files and the existing files in  the  destination.[m
+       Rsync is widely used for backups and mirroring and as an improved copy command for everyday use.[m
+[m
+       Rsync  finds  files that need to be transferred using a "quick check" algorithm (by default) that looks for files that have changed[m
+       in size or in last-modified time.  Any changes in the other preserved attributes (as requested by options) are made on the destinaâ

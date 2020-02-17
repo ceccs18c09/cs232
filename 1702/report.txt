@@ -1,0 +1,57 @@
+ANJANA S
+CEC CS 18 C09
+
+
+#3: Further Networking tasks (t4)
+---------------------------------
+
+Command/Shell script/Program name
+---------------------------------
+
+	ssh
+	rsync
+	scp
+
+--------------------------------
+Output: 
+
+	# ssh cs18c47@192.168.0.30, is used to open a secured connection to remote device
+	
+	# rsync -av 2701/ test/, is used to sync the files across 2701/ and test/ 
+	
+	# scp report.txt cs18c47@192.168.0.30:2701, this is used to upload report.txt to 2701/ in the host 192.168.0.30
+
+-------------------
+Remarks if any:
+
+#2: Ftp usage (t5)
+
+---------------------------------
+Command/Shell script/Program name
+---------------------------------
+	
+	sftp cs18c47@192.168.0.30
+	put report.txt
+	lcd ..
+	lpwd
+	get work.txt
+	rm work.txt
+	quit
+
+--------------------------------
+Output: or Input & Output (whichever is applicable)
+
+	# sftp cs18c09@192.168.0.30, connect to host 192.168.0.30 via sftp
+ceccs18c09
+	# put report.txt, upload report.txt
+
+	# lcd .., change local directory 
+
+	# lpwd, show local present working directory
+
+	# get abc.txt, copy work.txt from host to local system
+
+	# rm abc.txt, remove work.txt from host
+
+Remarks if any:
+
