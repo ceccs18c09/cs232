@@ -1,0 +1,50 @@
+CEC CS 18 C09
+ANJANA S
+----------------------
+#1:CREATE WEB PAGE AT SERVER
+------------------------------
+
+Input
+index.html contains  the html code for required table with head cell as follows:
+No
+Experiment description
+Code link
+Date of upload
+Description link
+Result link
+
+--------------------------------
+Output 
+
+file:///home/student/ceccs18c50/cs232/2402/index.html
+------------------------------------------------
+
+
+
+#2: SCRIPTING TASK
+---------------------------------
+
+
+
+Input: 
+Downloaded result_CHN.pdf
+
+converted to text file # pdftotext -layout result-s1.pdf result-s2.txt
+
+separated results of CS branch # grep "CHN18CS" 
+
+created text file student_list.txt  # cat > student_list.txt
+
+calculated cgpa # awk
+
+--------------------------------
+Output: 
+
+output file:
+
+  cgpa.txt
+  
+# Displays register number, name, cgpa for those who passed all subjects
+ 
+  and no. of subjects failed for others
+

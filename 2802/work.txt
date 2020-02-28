@@ -1,0 +1,416 @@
+Script started on 2020-02-28 09:48:17+0530
+]0;s4c1@user-Vostro-3470: ~/ceccs18c09/cs232/2802[01;32ms4c1@user-Vostro-3470[00m:[01;34m~/ceccs18c09/cs232/2802[00m$ gedit index.html
+]0;s4c1@user-Vostro-3470: ~/ceccs18c09/cs232/2802[01;32ms4c1@user-Vostro-3470[00m:[01;34m~/ceccs18c09/cs232/2802[00m$ ssh cs18c29@192.168.0.30
+.
+              |
+.  .    . .-. | .-..-. .--.--. .-.
+ \  \  / (.-' |(  (   )|  |  |(.-'
+  `' `'   `--'` `-'`-' '  '  ` `--'
+cs18c29@192.168.0.30's password: 
+Permission denied, please try again.
+cs18c29@192.168.0.30's password: 
+
+]0;s4c1@user-Vostro-3470: ~/ceccs18c09/cs232/2802[01;32ms4c1@user-Vostro-3470[00m:[01;34m~/ceccs18c09/cs232/2802[00m$ ^C
+]0;s4c1@user-Vostro-3470: ~/ceccs18c09/cs232/2802[01;32ms4c1@user-Vostro-3470[00m:[01;34m~/ceccs18c09/cs232/2802[00m$ ssh cs18c29@192.168.0.30[1P@192.168.0.30[1P@192.168.0.300@192.168.0.309@192.168.0.30
+.
+              |
+.  .    . .-. | .-..-. .--.--. .-.
+ \  \  / (.-' |(  (   )|  |  |(.-'
+  `' `'   `--'` `-'`-' '  '  ` `--'
+cs18c09@192.168.0.30's password: 
+Welcome to elementary OS 0.4.1 Loki (GNU/Linux 4.13.0-32-generic x86_64)
+
+ * Website:  http://elementary.io/
+
+402 packages can be updated.
+0 updates are security updates.
+
+Last login: Mon Feb 17 09:49:10 2020 from 192.168.0.148
+$ ls
+0702  1702  3101  examples.desktop
+$ cd 0702	/
+$ ls
+report.txt  resolv.conf  work.txt
+$ 
+Connection to 192.168.0.30 closed.
+]0;s4c1@user-Vostro-3470: ~/ceccs18c09/cs232/2802[01;32ms4c1@user-Vostro-3470[00m:[01;34m~/ceccs18c09/cs232/2802[00m$ ssh cs18c09@192.168.0.3029@192.168.0.30[8Pgedit index.html
+]0;s4c1@user-Vostro-3470: ~/ceccs18c09/cs232/2802[01;32ms4c1@user-Vostro-3470[00m:[01;34m~/ceccs18c09/cs232/2802[00m$ [K]0;s4c1@user-Vostro-3470: ~/ceccs18c09/cs232/2802[01;32ms4c1@user-Vostro-3470[00m:[01;34m~/ceccs18c09/cs232/2802[00m$ gedit index.html
+h]0;s4c1@user-Vostro-3470: ~/ceccs18c09/cs232/2802[01;32ms4c1@user-Vostro-3470[00m:[01;34m~/ceccs18c09/cs232/2802[00m$ hgedit index.html
+]0;s4c1@user-Vostro-3470: ~/ceccs18c09/cs232/2802[01;32ms4c1@user-Vostro-3470[00m:[01;34m~/ceccs18c09/cs232/2802[00m$ gedit index.html
+]0;s4c1@user-Vostro-3470: ~/ceccs18c09/cs232/2802[01;32ms4c1@user-Vostro-3470[00m:[01;34m~/ceccs18c09/cs232/2802[00m$ gedit report.txt
+^C
+]0;s4c1@user-Vostro-3470: ~/ceccs18c09/cs232/2802[01;32ms4c1@user-Vostro-3470[00m:[01;34m~/ceccs18c09/cs232/2802[00m$ LAYOUT [K[K[K[K[K[K[Klayout s1.pdf
+layout: command not found
+]0;s4c1@user-Vostro-3470: ~/ceccs18c09/cs232/2802[01;32ms4c1@user-Vostro-3470[00m:[01;34m~/ceccs18c09/cs232/2802[00m$ layout s1.pdf[32@pdftotext -layout result_CHN.pdf[1P[1P[K]0;s4c1@user-Vostro-3470: ~/ceccs18c09/cs232/2802[01;32ms4c1@user-Vostro-3470[00m:[01;34m~/ceccs18c09/cs232/2802[00m$ laypdftotext -layout result_CHN.poout s1.pdf[K[A]0;s4c1@user-Vostro-3470: ~/ceccs18c09/cs232/2802[01;32ms4c1@user-Vostro-3470[00m:[01;34m~/ceccs18c09/cs232/2802[00m$ laypdftotext -layout result_CHN.pout s1.pdf^C
+]0;s4c1@user-Vostro-3470: ~/ceccs18c09/cs232/2802[01;32ms4c1@user-Vostro-3470[00m:[01;34m~/ceccs18c09/cs232/2802[00m$ pdftotext -layout result_CHN.pdf[1P.pdf[1P.pdf[1P.pdf[1P.pdf[1P.pdf[1P.pdf[1P.pdf[1P.pdf[1P.pdf[1P.pdfs.pdf1.pdf
+]0;s4c1@user-Vostro-3470: ~/ceccs18c09/cs232/2802[01;32ms4c1@user-Vostro-3470[00m:[01;34m~/ceccs18c09/cs232/2802[00m$ pdftotext -layout s1.pdf[C[1P.pdf2.pdf
+I/O Error: Couldn't open file 's2.pdf': No such file or directory.
+]0;s4c1@user-Vostro-3470: ~/ceccs18c09/cs232/2802[01;32ms4c1@user-Vostro-3470[00m:[01;34m~/ceccs18c09/cs232/2802[00m$ pdftotext -layout s2.pdf
+]0;s4c1@user-Vostro-3470: ~/ceccs18c09/cs232/2802[01;32ms4c1@user-Vostro-3470[00m:[01;34m~/ceccs18c09/cs232/2802[00m$ grep CHN18CS "s1.txt">S1Cres.txt
+]0;s4c1@user-Vostro-3470: ~/ceccs18c09/cs232/2802[01;32ms4c1@user-Vostro-3470[00m:[01;34m~/ceccs18c09/cs232/2802[00m$ grep CHN18CS "s1.txt">S1Cres.txt[1P.txt">S1Cres.txt2.txt">S1Cres.txt
+]0;s4c1@user-Vostro-3470: ~/ceccs18c09/cs232/2802[01;32ms4c1@user-Vostro-3470[00m:[01;34m~/ceccs18c09/cs232/2802[00m$ grep CHN18CS "s2.txt">S1Cres.txt[1PCres.txt2Cres.txt
+]0;s4c1@user-Vostro-3470: ~/ceccs18c09/cs232/2802[01;32ms4c1@user-Vostro-3470[00m:[01;34m~/ceccs18c09/cs232/2802[00m$ grep CHN18CS "s2.txt">S2Cres.txt[1PCres.txt[1P.txt">SCres.txt1.txt">SCres.txt
+]0;s4c1@user-Vostro-3470: ~/ceccs18c09/cs232/2802[01;32ms4c1@user-Vostro-3470[00m:[01;34m~/ceccs18c09/cs232/2802[00m$ gedit script.sh
+^C
+]0;s4c1@user-Vostro-3470: ~/ceccs18c09/cs232/2802[01;32ms4c1@user-Vostro-3470[00m:[01;34m~/ceccs18c09/cs232/2802[00m$ ifconfig
+
+Command 'ifconfig' not found, but can be installed with:
+
+apt install net-tools
+Please ask your administrator.
+
+]0;s4c1@user-Vostro-3470: ~/ceccs18c09/cs232/2802[01;32ms4c1@user-Vostro-3470[00m:[01;34m~/ceccs18c09/cs232/2802[00m$ ip
+Usage: ip [ OPTIONS ] OBJECT { COMMAND | help }
+       ip [ -force ] -batch filename
+where  OBJECT := { link | address | addrlabel | route | rule | neigh | ntable |
+                   tunnel | tuntap | maddress | mroute | mrule | monitor | xfrm |
+                   netns | l2tp | fou | macsec | tcp_metrics | token | netconf | ila |
+                   vrf | sr }
+       OPTIONS := { -V[ersion] | -s[tatistics] | -d[etails] | -r[esolve] |
+                    -h[uman-readable] | -iec |
+                    -f[amily] { inet | inet6 | ipx | dnet | mpls | bridge | link } |
+                    -4 | -6 | -I | -D | -B | -0 |
+                    -l[oops] { maximum-addr-flush-attempts } | -br[ief] |
+                    -o[neline] | -t[imestamp] | -ts[hort] | -b[atch] [filename] |
+                    -rc[vbuf] [size] | -n[etns] name | -a[ll] | -c[olor]}
+]0;s4c1@user-Vostro-3470: ~/ceccs18c09/cs232/2802[01;32ms4c1@user-Vostro-3470[00m:[01;34m~/ceccs18c09/cs232/2802[00m$ ip
+Usage: ip [ OPTIONS ] OBJECT { COMMAND | help }
+       ip [ -force ] -batch filename
+where  OBJECT := { link | address | addrlabel | route | rule | neigh | ntable |
+                   tunnel | tuntap | maddress | mroute | mrule | monitor | xfrm |
+                   netns | l2tp | fou | macsec | tcp_metrics | token | netconf | ila |
+                   vrf | sr }
+       OPTIONS := { -V[ersion] | -s[tatistics] | -d[etails] | -r[esolve] |
+                    -h[uman-readable] | -iec |
+                    -f[amily] { inet | inet6 | ipx | dnet | mpls | bridge | link } |
+                    -4 | -6 | -I | -D | -B | -0 |
+                    -l[oops] { maximum-addr-flush-attempts } | -br[ief] |
+                    -o[neline] | -t[imestamp] | -ts[hort] | -b[atch] [filename] |
+                    -rc[vbuf] [size] | -n[etns] name | -a[ll] | -c[olor]}
+]0;s4c1@user-Vostro-3470: ~/ceccs18c09/cs232/2802[01;32ms4c1@user-Vostro-3470[00m:[01;34m~/ceccs18c09/cs232/2802[00m$ ipfconfig -a
+
+Command 'ifconfig' not found, but can be installed with:
+
+apt install net-tools
+Please ask your administrator.
+
+]0;s4c1@user-Vostro-3470: ~/ceccs18c09/cs232/2802[01;32ms4c1@user-Vostro-3470[00m:[01;34m~/ceccs18c09/cs232/2802[00m$ ifconfig -ap[K[K[Kif[K[Kifconfig
+
+Command 'ifconfig' not found, but can be installed with:
+
+apt install net-tools
+Please ask your administrator.
+
+]0;s4c1@user-Vostro-3470: ~/ceccs18c09/cs232/2802[01;32ms4c1@user-Vostro-3470[00m:[01;34m~/ceccs18c09/cs232/2802[00m$ ifconfig -ap[K[K[Kipo[K
+Usage: ip [ OPTIONS ] OBJECT { COMMAND | help }
+       ip [ -force ] -batch filename
+where  OBJECT := { link | address | addrlabel | route | rule | neigh | ntable |
+                   tunnel | tuntap | maddress | mroute | mrule | monitor | xfrm |
+                   netns | l2tp | fou | macsec | tcp_metrics | token | netconf | ila |
+                   vrf | sr }
+       OPTIONS := { -V[ersion] | -s[tatistics] | -d[etails] | -r[esolve] |
+                    -h[uman-readable] | -iec |
+                    -f[amily] { inet | inet6 | ipx | dnet | mpls | bridge | link } |
+                    -4 | -6 | -I | -D | -B | -0 |
+                    -l[oops] { maximum-addr-flush-attempts } | -br[ief] |
+                    -o[neline] | -t[imestamp] | -ts[hort] | -b[atch] [filename] |
+                    -rc[vbuf] [size] | -n[etns] name | -a[ll] | -c[olor]}
+]0;s4c1@user-Vostro-3470: ~/ceccs18c09/cs232/2802[01;32ms4c1@user-Vostro-3470[00m:[01;34m~/ceccs18c09/cs232/2802[00m$ ipfconfig -ap[Kfconfiggedit script.shrep CHN18CS "s1.txt">SCres.txt2.txt">S2Cres.txt1Cres.txt1.txt">S1Cres.txt[8Ppdftotext -layout s2.pdf1.pdf[11P[C[C[C[C[C[C[C[C[C[C[C[C[Cgedit report.txtindex.htmlssh cs18c09@192.168.0.30[8Pgedit index.htmlreport.txtindex.htmlssh cs18c09@192.168.0.3029@192.168.0.30[8Pgedit index.htmlsftp cs18c09@192.168.0.30cd 1702[Kceccs18c09[K[K[K[K[K[K[K[K[K[K[K[K[Kipconfig 
+
+Command 'ipconfig' not found, did you mean:
+
+  command 'ifconfig' from deb net-tools
+  command 'iconfig' from deb ipmiutil
+  command 'iwconfig' from deb wireless-tools
+
+Try: apt install <deb name>
+
+]0;s4c1@user-Vostro-3470: ~/ceccs18c09/cs232/2802[01;32ms4c1@user-Vostro-3470[00m:[01;34m~/ceccs18c09/cs232/2802[00m$ ipconfig [1P[1@f
+
+Command 'ifconfig' not found, but can be installed with:
+
+apt install net-tools
+Please ask your administrator.
+
+]0;s4c1@user-Vostro-3470: ~/ceccs18c09/cs232/2802[01;32ms4c1@user-Vostro-3470[00m:[01;34m~/ceccs18c09/cs232/2802[00m$ ifconfig -a
+
+Command 'ifconfig' not found, but can be installed with:
+
+apt install net-tools
+Please ask your administrator.
+
+]0;s4c1@user-Vostro-3470: ~/ceccs18c09/cs232/2802[01;32ms4c1@user-Vostro-3470[00m:[01;34m~/ceccs18c09/cs232/2802[00m$ ip -[Klinksh[K[K show
+1: lo: <LOOPBACK,UP,LOWER_UP> mtu 65536 qdisc noqueue state UNKNOWN mode DEFAULT group default qlen 1000
+    link/loopback 00:00:00:00:00:00 brd 00:00:00:00:00:00
+2: enp1s0: <BROADCAST,MULTICAST,UP,LOWER_UP> mtu 1500 qdisc fq_codel state UP mode DEFAULT group default qlen 1000
+    link/ether e4:54:e8:af:12:44 brd ff:ff:ff:ff:ff:ff
+3: wlp2s0: <NO-CARRIER,BROADCAST,MULTICAST,UP> mtu 1500 qdisc noqueue state DOWN mode DORMANT group default qlen 1000
+    link/ether ac:d5:64:51:78:e1 brd ff:ff:ff:ff:ff:ff
+]0;s4c1@user-Vostro-3470: ~/ceccs18c09/cs232/2802[01;32ms4c1@user-Vostro-3470[00m:[01;34m~/ceccs18c09/cs232/2802[00m$ ip link show[1Pfconfig -a[Kp[C[C[C[C[C[C[C[Kfconfig -ap[K[K[Kifconfig[K[K[K[K[K[K[K[Kgedit scripy[Kt.sh
+]0;s4c1@user-Vostro-3470: ~/ceccs18c09/cs232/2802[01;32ms4c1@user-Vostro-3470[00m:[01;34m~/ceccs18c09/cs232/2802[00m$ gedit script.sh[3Pip link showgedit script.sh
+^C
+]0;s4c1@user-Vostro-3470: ~/ceccs18c09/cs232/2802[01;32ms4c1@user-Vostro-3470[00m:[01;34m~/ceccs18c09/cs232/2802[00m$ chmod +x script.sh
+]0;s4c1@user-Vostro-3470: ~/ceccs18c09/cs232/2802[01;32ms4c1@user-Vostro-3470[00m:[01;34m~/ceccs18c09/cs232/2802[00m$ ./script.ch
+bash: ./script.ch: No such file or directory
+]0;s4c1@user-Vostro-3470: ~/ceccs18c09/cs232/2802[01;32ms4c1@user-Vostro-3470[00m:[01;34m~/ceccs18c09/cs232/2802[00m$ ./script.ch[1Phsh
+[3J[H[2JI/O Error: Couldn't open file 'result_s1.pdf': No such file or directory.
+grep: result_s1.txt: No such file or directory
+join: cgpa_raw2.txt: No such file or directory
+join: students.txt: No such file or directory
+rm: cannot remove 'result_cs2.txt': No such file or directory
+rm: cannot remove 'gp_s2.txt': No such file or directory
+rm: cannot remove 'cgpa_raw2.txt': No such file or directory
+]0;s4c1@user-Vostro-3470: ~/ceccs18c09/cs232/2802[01;32ms4c1@user-Vostro-3470[00m:[01;34m~/ceccs18c09/cs232/2802[00m$ ./script.sh
+[3J[H[2JI/O Error: Couldn't open file 'result_s1.pdf': No such file or directory.
+I/O Error: Couldn't open file 'result_s2.pdf': No such file or directory.
+grep: result_s2.txt: No such file or directory
+join: students.txt: No such file or directory
+[3J[H[2JI/O Error: Couldn't open file 'result_s1.pdf': No such file or directory.
+I/O Error: Couldn't open file 'result_s2.pdf': No such file or directory.
+join: students.txt: No such file or directory
+rm: cannot remove 'gp_s1.txt': No such file or directory
+rm: cannot remove 'gp_s2.txt': No such file or directory
+rm: cannot remove 'sgpa.txt': No such file or directory
+rm: cannot remove 'cgpa_raw2.txt': No such file or directory
+rm: cannot remove 'cgpa_raw1.txt': No such file or directory
+rm: cannot remove 'cgpa_raw.txt': No such file or directory
+]0;s4c1@user-Vostro-3470: ~/ceccs18c09/cs232/2802[01;32ms4c1@user-Vostro-3470[00m:[01;34m~/ceccs18c09/cs232/2802[00m$ #!/bin/bash
+]0;s4c1@user-Vostro-3470: ~/ceccs18c09/cs232/2802[01;32ms4c1@user-Vostro-3470[00m:[01;34m~/ceccs18c09/cs232/2802[00m$ 
+]0;s4c1@user-Vostro-3470: ~/ceccs18c09/cs232/2802[01;32ms4c1@user-Vostro-3470[00m:[01;34m~/ceccs18c09/cs232/2802[00m$ clear
+[3J[H[2J]0;s4c1@user-Vostro-3470: ~/ceccs18c09/cs232/2802[01;32ms4c1@user-Vostro-3470[00m:[01;34m~/ceccs18c09/cs232/2802[00m$ 
+]0;s4c1@user-Vostro-3470: ~/ceccs18c09/cs232/2802[01;32ms4c1@user-Vostro-3470[00m:[01;34m~/ceccs18c09/cs232/2802[00m$ # Coverts .pdf to .txt
+]0;s4c1@user-Vostro-3470: ~/ceccs18c09/cs232/2802[01;32ms4c1@user-Vostro-3470[00m:[01;34m~/ceccs18c09/cs232/2802[00m$ pdftotext -layout result_s1.pdf result_s1.txt
+I/O Error: Couldn't open file 'result_s1.pdf': No such file or directory.
+]0;s4c1@user-Vostro-3470: ~/ceccs18c09/cs232/2802[01;32ms4c1@user-Vostro-3470[00m:[01;34m~/ceccs18c09/cs232/2802[00m$ 
+]0;s4c1@user-Vostro-3470: ~/ceccs18c09/cs232/2802[01;32ms4c1@user-Vostro-3470[00m:[01;34m~/ceccs18c09/cs232/2802[00m$ # Separates out results of CS students
+]0;s4c1@user-Vostro-3470: ~/ceccs18c09/cs232/2802[01;32ms4c1@user-Vostro-3470[00m:[01;34m~/ceccs18c09/cs232/2802[00m$ grep --no-group-separator -A3 "CHN18CS" result_s1.txt > result_cs1.txt
+]0;s4c1@user-Vostro-3470: ~/ceccs18c09/cs232/2802[01;32ms4c1@user-Vostro-3470[00m:[01;34m~/ceccs18c09/cs232/2802[00m$ 
+]0;s4c1@user-Vostro-3470: ~/ceccs18c09/cs232/2802[01;32ms4c1@user-Vostro-3470[00m:[01;34m~/ceccs18c09/cs232/2802[00m$ # Cleans up and arranges the data in organised manner
+]0;s4c1@user-Vostro-3470: ~/ceccs18c09/cs232/2802[01;32ms4c1@user-Vostro-3470[00m:[01;34m~/ceccs18c09/cs232/2802[00m$ tr  '\n' ' ' < result_cs1.txt > result_s1.txt
+]0;s4c1@user-Vostro-3470: ~/ceccs18c09/cs232/2802[01;32ms4c1@user-Vostro-3470[00m:[01;34m~/ceccs18c09/cs232/2802[00m$ sed 's/\t//g' result_s1.txt > result_cs1.txt
+]0;s4c1@user-Vostro-3470: ~/ceccs18c09/cs232/2802[01;32ms4c1@user-Vostro-3470[00m:[01;34m~/ceccs18c09/cs232/2802[00m$ awk '{$1=$1;print}' result_cs1.txt > result_s1.txt
+]0;s4c1@user-Vostro-3470: ~/ceccs18c09/cs232/2802[01;32ms4c1@user-Vostro-3470[00m:[01;34m~/ceccs18c09/cs232/2802[00m$ sed 's/CHN/\nCHN/g' result_s1.txt > result_cs1.txt
+]0;s4c1@user-Vostro-3470: ~/ceccs18c09/cs232/2802[01;32ms4c1@user-Vostro-3470[00m:[01;34m~/ceccs18c09/cs232/2802[00m$ tr  ',' ' ' < result_cs1.txt > result_s1.txt
+]0;s4c1@user-Vostro-3470: ~/ceccs18c09/cs232/2802[01;32ms4c1@user-Vostro-3470[00m:[01;34m~/ceccs18c09/cs232/2802[00m$ 
+]0;s4c1@user-Vostro-3470: ~/ceccs18c09/cs232/2802[01;32ms4c1@user-Vostro-3470[00m:[01;34m~/ceccs18c09/cs232/2802[00m$ # Convert Grades to Grade Points 
+]0;s4c1@user-Vostro-3470: ~/ceccs18c09/cs232/2802[01;32ms4c1@user-Vostro-3470[00m:[01;34m~/ceccs18c09/cs232/2802[00m$ sed -i 's/(O)/ 10/g' result_s1.txt
+]0;s4c1@user-Vostro-3470: ~/ceccs18c09/cs232/2802[01;32ms4c1@user-Vostro-3470[00m:[01;34m~/ceccs18c09/cs232/2802[00m$ sed -i 's/(A+)/ 9/g' result_s1.txt
+]0;s4c1@user-Vostro-3470: ~/ceccs18c09/cs232/2802[01;32ms4c1@user-Vostro-3470[00m:[01;34m~/ceccs18c09/cs232/2802[00m$ sed -i 's/(A)/ 8.5/g' result_s1.txt
+]0;s4c1@user-Vostro-3470: ~/ceccs18c09/cs232/2802[01;32ms4c1@user-Vostro-3470[00m:[01;34m~/ceccs18c09/cs232/2802[00m$ sed -i 's/(B+)/ 8/g' result_s1.txt
+]0;s4c1@user-Vostro-3470: ~/ceccs18c09/cs232/2802[01;32ms4c1@user-Vostro-3470[00m:[01;34m~/ceccs18c09/cs232/2802[00m$ sed -i 's/(B)/ 7/g' result_s1.txt
+]0;s4c1@user-Vostro-3470: ~/ceccs18c09/cs232/2802[01;32ms4c1@user-Vostro-3470[00m:[01;34m~/ceccs18c09/cs232/2802[00m$ sed -i 's/(C)/ 6/g' result_s1.txt
+]0;s4c1@user-Vostro-3470: ~/ceccs18c09/cs232/2802[01;32ms4c1@user-Vostro-3470[00m:[01;34m~/ceccs18c09/cs232/2802[00m$ sed -i 's/(P)/ 5/g' result_s1.txt
+]0;s4c1@user-Vostro-3470: ~/ceccs18c09/cs232/2802[01;32ms4c1@user-Vostro-3470[00m:[01;34m~/ceccs18c09/cs232/2802[00m$ sed -i 's/(F)/ 0/g' result_s1.txt
+]0;s4c1@user-Vostro-3470: ~/ceccs18c09/cs232/2802[01;32ms4c1@user-Vostro-3470[00m:[01;34m~/ceccs18c09/cs232/2802[00m$ sed -i 's/(FE)/ 0/g' result_s1.txt
+]0;s4c1@user-Vostro-3470: ~/ceccs18c09/cs232/2802[01;32ms4c1@user-Vostro-3470[00m:[01;34m~/ceccs18c09/cs232/2802[00m$ sed -i 's/(I)/ 0/g' result_s1.txt
+]0;s4c1@user-Vostro-3470: ~/ceccs18c09/cs232/2802[01;32ms4c1@user-Vostro-3470[00m:[01;34m~/ceccs18c09/cs232/2802[00m$ sed -i 's/(Absent)/ 0/g' result_s1.txt
+]0;s4c1@user-Vostro-3470: ~/ceccs18c09/cs232/2802[01;32ms4c1@user-Vostro-3470[00m:[01;34m~/ceccs18c09/cs232/2802[00m$ 
+]0;s4c1@user-Vostro-3470: ~/ceccs18c09/cs232/2802[01;32ms4c1@user-Vostro-3470[00m:[01;34m~/ceccs18c09/cs232/2802[00m$ 
+]0;s4c1@user-Vostro-3470: ~/ceccs18c09/cs232/2802[01;32ms4c1@user-Vostro-3470[00m:[01;34m~/ceccs18c09/cs232/2802[00m$ # Seperates gradepoints and store to another file
+]0;s4c1@user-Vostro-3470: ~/ceccs18c09/cs232/2802[01;32ms4c1@user-Vostro-3470[00m:[01;34m~/ceccs18c09/cs232/2802[00m$ awk  '{  
+> print $1,$3,$5,$7,$9,$11,$13,$15,$17,$19
+>  }' result_s1.txt > gp_s1.txt 
+]0;s4c1@user-Vostro-3470: ~/ceccs18c09/cs232/2802[01;32ms4c1@user-Vostro-3470[00m:[01;34m~/ceccs18c09/cs232/2802[00m$ 
+]0;s4c1@user-Vostro-3470: ~/ceccs18c09/cs232/2802[01;32ms4c1@user-Vostro-3470[00m:[01;34m~/ceccs18c09/cs232/2802[00m$ 
+]0;s4c1@user-Vostro-3470: ~/ceccs18c09/cs232/2802[01;32ms4c1@user-Vostro-3470[00m:[01;34m~/ceccs18c09/cs232/2802[00m$ 
+]0;s4c1@user-Vostro-3470: ~/ceccs18c09/cs232/2802[01;32ms4c1@user-Vostro-3470[00m:[01;34m~/ceccs18c09/cs232/2802[00m$ # Computes SGPA and counts subjects failed in
+]0;s4c1@user-Vostro-3470: ~/ceccs18c09/cs232/2802[01;32ms4c1@user-Vostro-3470[00m:[01;34m~/ceccs18c09/cs232/2802[00m$ awk '{
+> sum = 0
+> flag = 0
+> fails = 0
+> for(var =2; var<=NF; var++)
+> {
+> 
+cgpa.txt        index.html      result_cs1.txt  result_s2.txt   s1.pdf          S2Cres.txt      s2.txt          work.txt
+gp_s1.txt       report.txt      result_s1.txt   S1Cres.txt      s1.txt          s2.pdf          script.sh       
+> if($var == 0) 
+> 
+cgpa.txt        index.html      result_cs1.txt  result_s2.txt   s1.pdf          S2Cres.txt      s2.txt          work.txt
+gp_s1.txt       report.txt      result_s1.txt   S1Cres.txt      s1.txt          s2.pdf          script.sh       
+> {
+> 
+cgpa.txt        index.html      result_cs1.txt  result_s2.txt   s1.pdf          S2Cres.txt      s2.txt          work.txt
+gp_s1.txt       report.txt      result_s1.txt   S1Cres.txt      s1.txt          s2.pdf          script.sh       
+> 
+cgpa.txt        index.html      result_cs1.txt  result_s2.txt   s1.pdf          S2Cres.txt      s2.txt          work.txt
+gp_s1.txt       report.txt      result_s1.txt   S1Cres.txt      s1.txt          s2.pdf          script.sh       
+> flag = 1
+> 
+cgpa.txt        index.html      result_cs1.txt  result_s2.txt   s1.pdf          S2Cres.txt      s2.txt          work.txt
+gp_s1.txt       report.txt      result_s1.txt   S1Cres.txt      s1.txt          s2.pdf          script.sh       
+> 
+cgpa.txt        index.html      result_cs1.txt  result_s2.txt   s1.pdf          S2Cres.txt      s2.txt          work.txt
+gp_s1.txt       report.txt      result_s1.txt   S1Cres.txt      s1.txt          s2.pdf          script.sh       
+> fails = fails + 1
+> 
+cgpa.txt        index.html      result_cs1.txt  result_s2.txt   s1.pdf          S2Cres.txt      s2.txt          work.txt
+gp_s1.txt       report.txt      result_s1.txt   S1Cres.txt      s1.txt          s2.pdf          script.sh       
+> }
+> 
+cgpa.txt        index.html      result_cs1.txt  result_s2.txt   s1.pdf          S2Cres.txt      s2.txt          work.txt
+gp_s1.txt       report.txt      result_s1.txt   S1Cres.txt      s1.txt          s2.pdf          script.sh       
+> sum += $var
+> }
+> cgpa = sum/9
+> if (flag == 0) {
+>  printf("%s %0.2f\n",$1,cgpa)
+> }
+> if (flag == 1) {
+> 
+cgpa.txt        index.html      result_cs1.txt  result_s2.txt   s1.pdf          S2Cres.txt      s2.txt          work.txt
+gp_s1.txt       report.txt      result_s1.txt   S1Cres.txt      s1.txt          s2.pdf          script.sh       
+> printf("%s %d\n",$1,-1*fails)
+> }
+> }' gp_s1.txt > cgpa_raw1.txt
+]0;s4c1@user-Vostro-3470: ~/ceccs18c09/cs232/2802[01;32ms4c1@user-Vostro-3470[00m:[01;34m~/ceccs18c09/cs232/2802[00m$ 
+]0;s4c1@user-Vostro-3470: ~/ceccs18c09/cs232/2802[01;32ms4c1@user-Vostro-3470[00m:[01;34m~/ceccs18c09/cs232/2802[00m$ 
+]0;s4c1@user-Vostro-3470: ~/ceccs18c09/cs232/2802[01;32ms4c1@user-Vostro-3470[00m:[01;34m~/ceccs18c09/cs232/2802[00m$ pdftotext -layout result_s2.pdf result_s2.txt
+I/O Error: Couldn't open file 'result_s2.pdf': No such file or directory.
+]0;s4c1@user-Vostro-3470: ~/ceccs18c09/cs232/2802[01;32ms4c1@user-Vostro-3470[00m:[01;34m~/ceccs18c09/cs232/2802[00m$ 
+]0;s4c1@user-Vostro-3470: ~/ceccs18c09/cs232/2802[01;32ms4c1@user-Vostro-3470[00m:[01;34m~/ceccs18c09/cs232/2802[00m$ grep --no-group-separator -A3 "CHN18CS" result_s2.txt > result_cs2.txt
+]0;s4c1@user-Vostro-3470: ~/ceccs18c09/cs232/2802[01;32ms4c1@user-Vostro-3470[00m:[01;34m~/ceccs18c09/cs232/2802[00m$ 
+]0;s4c1@user-Vostro-3470: ~/ceccs18c09/cs232/2802[01;32ms4c1@user-Vostro-3470[00m:[01;34m~/ceccs18c09/cs232/2802[00m$ # Cleans up and arranges the data in organised manner
+]0;s4c1@user-Vostro-3470: ~/ceccs18c09/cs232/2802[01;32ms4c1@user-Vostro-3470[00m:[01;34m~/ceccs18c09/cs232/2802[00m$ tr  '\n' ' ' < result_cs2.txt > result_s2.txt
+]0;s4c1@user-Vostro-3470: ~/ceccs18c09/cs232/2802[01;32ms4c1@user-Vostro-3470[00m:[01;34m~/ceccs18c09/cs232/2802[00m$ sed 's/\t//g' result_s2.txt > result_cs2.txt
+]0;s4c1@user-Vostro-3470: ~/ceccs18c09/cs232/2802[01;32ms4c1@user-Vostro-3470[00m:[01;34m~/ceccs18c09/cs232/2802[00m$ awk '{$1=$1;print}' result_cs2.txt > result_s2.txt
+]0;s4c1@user-Vostro-3470: ~/ceccs18c09/cs232/2802[01;32ms4c1@user-Vostro-3470[00m:[01;34m~/ceccs18c09/cs232/2802[00m$ sed 's/CHN/\nCHN/g' result_s2.txt > result_cs2.txt
+]0;s4c1@user-Vostro-3470: ~/ceccs18c09/cs232/2802[01;32ms4c1@user-Vostro-3470[00m:[01;34m~/ceccs18c09/cs232/2802[00m$ tr  ',' ' ' < result_cs2.txt > result_s2.txt
+]0;s4c1@user-Vostro-3470: ~/ceccs18c09/cs232/2802[01;32ms4c1@user-Vostro-3470[00m:[01;34m~/ceccs18c09/cs232/2802[00m$ 
+]0;s4c1@user-Vostro-3470: ~/ceccs18c09/cs232/2802[01;32ms4c1@user-Vostro-3470[00m:[01;34m~/ceccs18c09/cs232/2802[00m$ # Convert Grades to Grade Points 
+]0;s4c1@user-Vostro-3470: ~/ceccs18c09/cs232/2802[01;32ms4c1@user-Vostro-3470[00m:[01;34m~/ceccs18c09/cs232/2802[00m$ sed -i 's/(O)/ 10/g' result_s2.txt
+]0;s4c1@user-Vostro-3470: ~/ceccs18c09/cs232/2802[01;32ms4c1@user-Vostro-3470[00m:[01;34m~/ceccs18c09/cs232/2802[00m$ sed -i 's/(A+)/ 9/g' result_s2.txt
+]0;s4c1@user-Vostro-3470: ~/ceccs18c09/cs232/2802[01;32ms4c1@user-Vostro-3470[00m:[01;34m~/ceccs18c09/cs232/2802[00m$ sed -i 's/(A)/ 8.5/g' result_s2.txt
+]0;s4c1@user-Vostro-3470: ~/ceccs18c09/cs232/2802[01;32ms4c1@user-Vostro-3470[00m:[01;34m~/ceccs18c09/cs232/2802[00m$ sed -i 's/(B+)/ 8/g' result_s2.txt
+]0;s4c1@user-Vostro-3470: ~/ceccs18c09/cs232/2802[01;32ms4c1@user-Vostro-3470[00m:[01;34m~/ceccs18c09/cs232/2802[00m$ sed -i 's/(B)/ 7/g' result_s2.txt
+]0;s4c1@user-Vostro-3470: ~/ceccs18c09/cs232/2802[01;32ms4c1@user-Vostro-3470[00m:[01;34m~/ceccs18c09/cs232/2802[00m$ sed -i 's/(C)/ 6/g' result_s2.txt
+]0;s4c1@user-Vostro-3470: ~/ceccs18c09/cs232/2802[01;32ms4c1@user-Vostro-3470[00m:[01;34m~/ceccs18c09/cs232/2802[00m$ sed -i 's/(P)/ 5/g' result_s2.txt
+]0;s4c1@user-Vostro-3470: ~/ceccs18c09/cs232/2802[01;32ms4c1@user-Vostro-3470[00m:[01;34m~/ceccs18c09/cs232/2802[00m$ sed -i 's/(F)/ 0/g' result_s2.txt
+]0;s4c1@user-Vostro-3470: ~/ceccs18c09/cs232/2802[01;32ms4c1@user-Vostro-3470[00m:[01;34m~/ceccs18c09/cs232/2802[00m$ sed -i 's/(FE)/ 0/g' result_s2.txt
+]0;s4c1@user-Vostro-3470: ~/ceccs18c09/cs232/2802[01;32ms4c1@user-Vostro-3470[00m:[01;34m~/ceccs18c09/cs232/2802[00m$ sed -i 's/(I)/ 0/g' result_s2.txt
+]0;s4c1@user-Vostro-3470: ~/ceccs18c09/cs232/2802[01;32ms4c1@user-Vostro-3470[00m:[01;34m~/ceccs18c09/cs232/2802[00m$ sed -i 's/(Absent)/ 0/g' result_s2.txt
+]0;s4c1@user-Vostro-3470: ~/ceccs18c09/cs232/2802[01;32ms4c1@user-Vostro-3470[00m:[01;34m~/ceccs18c09/cs232/2802[00m$ 
+]0;s4c1@user-Vostro-3470: ~/ceccs18c09/cs232/2802[01;32ms4c1@user-Vostro-3470[00m:[01;34m~/ceccs18c09/cs232/2802[00m$ 
+]0;s4c1@user-Vostro-3470: ~/ceccs18c09/cs232/2802[01;32ms4c1@user-Vostro-3470[00m:[01;34m~/ceccs18c09/cs232/2802[00m$ # Seperates gradepoints and store to another file
+]0;s4c1@user-Vostro-3470: ~/ceccs18c09/cs232/2802[01;32ms4c1@user-Vostro-3470[00m:[01;34m~/ceccs18c09/cs232/2802[00m$ awk  '{  
+> print $1,$3,$5,$7,$9,$11,$13,$15,$17,$19
+>  }' result_s2.txt > gp_s2.txt 
+]0;s4c1@user-Vostro-3470: ~/ceccs18c09/cs232/2802[01;32ms4c1@user-Vostro-3470[00m:[01;34m~/ceccs18c09/cs232/2802[00m$ 
+]0;s4c1@user-Vostro-3470: ~/ceccs18c09/cs232/2802[01;32ms4c1@user-Vostro-3470[00m:[01;34m~/ceccs18c09/cs232/2802[00m$ 
+]0;s4c1@user-Vostro-3470: ~/ceccs18c09/cs232/2802[01;32ms4c1@user-Vostro-3470[00m:[01;34m~/ceccs18c09/cs232/2802[00m$ 
+]0;s4c1@user-Vostro-3470: ~/ceccs18c09/cs232/2802[01;32ms4c1@user-Vostro-3470[00m:[01;34m~/ceccs18c09/cs232/2802[00m$ # Computes SGPA and counts subjects failed in
+]0;s4c1@user-Vostro-3470: ~/ceccs18c09/cs232/2802[01;32ms4c1@user-Vostro-3470[00m:[01;34m~/ceccs18c09/cs232/2802[00m$ awk '{
+> sum = 0
+> flag = 0
+> fails = 0
+> for(var =2; var<=NF; var++)
+> {
+> 
+cgpa_raw1.txt   gp_s2.txt       result_cs1.txt  result_s2.txt   s1.txt          s2.txt          
+cgpa.txt        index.html      result_cs2.txt  S1Cres.txt      S2Cres.txt      script.sh       
+gp_s1.txt       report.txt      result_s1.txt   s1.pdf          s2.pdf          work.txt        
+> if($var == 0) 
+> 
+cgpa_raw1.txt   gp_s2.txt       result_cs1.txt  result_s2.txt   s1.txt          s2.txt          
+cgpa.txt        index.html      result_cs2.txt  S1Cres.txt      S2Cres.txt      script.sh       
+gp_s1.txt       report.txt      result_s1.txt   s1.pdf          s2.pdf          work.txt        
+> {
+> 
+cgpa_raw1.txt   gp_s2.txt       result_cs1.txt  result_s2.txt   s1.txt          s2.txt          
+cgpa.txt        index.html      result_cs2.txt  S1Cres.txt      S2Cres.txt      script.sh       
+gp_s1.txt       report.txt      result_s1.txt   s1.pdf          s2.pdf          work.txt        
+> 
+cgpa_raw1.txt   gp_s2.txt       result_cs1.txt  result_s2.txt   s1.txt          s2.txt          
+cgpa.txt        index.html      result_cs2.txt  S1Cres.txt      S2Cres.txt      script.sh       
+gp_s1.txt       report.txt      result_s1.txt   s1.pdf          s2.pdf          work.txt        
+> flag = 1
+> 
+cgpa_raw1.txt   gp_s2.txt       result_cs1.txt  result_s2.txt   s1.txt          s2.txt          
+cgpa.txt        index.html      result_cs2.txt  S1Cres.txt      S2Cres.txt      script.sh       
+gp_s1.txt       report.txt      result_s1.txt   s1.pdf          s2.pdf          work.txt        
+> 
+cgpa_raw1.txt   gp_s2.txt       result_cs1.txt  result_s2.txt   s1.txt          s2.txt          
+cgpa.txt        index.html      result_cs2.txt  S1Cres.txt      S2Cres.txt      script.sh       
+gp_s1.txt       report.txt      result_s1.txt   s1.pdf          s2.pdf          work.txt        
+> fails = fails + 1
+> 
+cgpa_raw1.txt   gp_s2.txt       result_cs1.txt  result_s2.txt   s1.txt          s2.txt          
+cgpa.txt        index.html      result_cs2.txt  S1Cres.txt      S2Cres.txt      script.sh       
+gp_s1.txt       report.txt      result_s1.txt   s1.pdf          s2.pdf          work.txt        
+> }
+> 
+cgpa_raw1.txt   gp_s2.txt       result_cs1.txt  result_s2.txt   s1.txt          s2.txt          
+cgpa.txt        index.html      result_cs2.txt  S1Cres.txt      S2Cres.txt      script.sh       
+gp_s1.txt       report.txt      result_s1.txt   s1.pdf          s2.pdf          work.txt        
+> sum += $var
+> }
+> cgpa = sum/9
+> if (flag == 0) {
+>  printf("%s %0.2f\n",$1,cgpa)
+> }
+> if (flag == 1) {
+> 
+cgpa_raw1.txt   gp_s2.txt       result_cs1.txt  result_s2.txt   s1.txt          s2.txt          
+cgpa.txt        index.html      result_cs2.txt  S1Cres.txt      S2Cres.txt      script.sh       
+gp_s1.txt       report.txt      result_s1.txt   s1.pdf          s2.pdf          work.txt        
+> printf("%s %d\n",$1,-1*fails)
+> }
+> }' gp_s2.txt > cgpa_raw2.txt
+]0;s4c1@user-Vostro-3470: ~/ceccs18c09/cs232/2802[01;32ms4c1@user-Vostro-3470[00m:[01;34m~/ceccs18c09/cs232/2802[00m$ #gedit cgpa_raw2.txt
+]0;s4c1@user-Vostro-3470: ~/ceccs18c09/cs232/2802[01;32ms4c1@user-Vostro-3470[00m:[01;34m~/ceccs18c09/cs232/2802[00m$ 
+]0;s4c1@user-Vostro-3470: ~/ceccs18c09/cs232/2802[01;32ms4c1@user-Vostro-3470[00m:[01;34m~/ceccs18c09/cs232/2802[00m$ join --nocheck-order cgpa_raw1.txt cgpa_raw2.txt >sgpa.txt
+]0;s4c1@user-Vostro-3470: ~/ceccs18c09/cs232/2802[01;32ms4c1@user-Vostro-3470[00m:[01;34m~/ceccs18c09/cs232/2802[00m$ awk '{
+> cgpa=0
+> if($2>0 && $3>0)
+> {
+> 
+cgpa_raw1.txt   gp_s1.txt       report.txt      result_s1.txt   s1.pdf          s2.pdf          sgpa.txt        
+cgpa_raw2.txt   gp_s2.txt       result_cs1.txt  result_s2.txt   s1.txt          s2.txt          work.txt        
+cgpa.txt        index.html      result_cs2.txt  S1Cres.txt      S2Cres.txt      script.sh       
+> cgpa=$2+$3
+> 
+cgpa_raw1.txt   gp_s1.txt       report.txt      result_s1.txt   s1.pdf          s2.pdf          sgpa.txt        
+cgpa_raw2.txt   gp_s2.txt       result_cs1.txt  result_s2.txt   s1.txt          s2.txt          work.txt        
+cgpa.txt        index.html      result_cs2.txt  S1Cres.txt      S2Cres.txt      script.sh       
+> printf("%s %0.2f %0.2f %0.2f\n",$1,$2,$3,cgpa)
+> }
+> else
+> 
+cgpa_raw1.txt   gp_s1.txt       report.txt      result_s1.txt   s1.pdf          s2.pdf          sgpa.txt        
+cgpa_raw2.txt   gp_s2.txt       result_cs1.txt  result_s2.txt   s1.txt          s2.txt          work.txt        
+cgpa.txt        index.html      result_cs2.txt  S1Cres.txt      S2Cres.txt      script.sh       
+> printf("%s %0.2f %0.2f\n",$1,$2,$3)
+>       }' sgpa.txt > cgpa_raw.txt
+]0;s4c1@user-Vostro-3470: ~/ceccs18c09/cs232/2802[01;32ms4c1@user-Vostro-3470[00m:[01;34m~/ceccs18c09/cs232/2802[00m$ #add the student name
+]0;s4c1@user-Vostro-3470: ~/ceccs18c09/cs232/2802[01;32ms4c1@user-Vostro-3470[00m:[01;34m~/ceccs18c09/cs232/2802[00m$ join --nocheck-order students.txt  cgpa_raw.txt > cgpa.txt
+join: students.txt: No such file or directory
+]0;s4c1@user-Vostro-3470: ~/ceccs18c09/cs232/2802[01;32ms4c1@user-Vostro-3470[00m:[01;34m~/ceccs18c09/cs232/2802[00m$ 
+]0;s4c1@user-Vostro-3470: ~/ceccs18c09/cs232/2802[01;32ms4c1@user-Vostro-3470[00m:[01;34m~/ceccs18c09/cs232/2802[00m$ # Removes temperory files used to process
+]0;s4c1@user-Vostro-3470: ~/ceccs18c09/cs232/2802[01;32ms4c1@user-Vostro-3470[00m:[01;34m~/ceccs18c09/cs232/2802[00m$ rm result_cs1.txt
+]0;s4c1@user-Vostro-3470: ~/ceccs18c09/cs232/2802[01;32ms4c1@user-Vostro-3470[00m:[01;34m~/ceccs18c09/cs232/2802[00m$ rm result_cs2.txt
+]0;s4c1@user-Vostro-3470: ~/ceccs18c09/cs232/2802[01;32ms4c1@user-Vostro-3470[00m:[01;34m~/ceccs18c09/cs232/2802[00m$ rm gp_s1.txt
+]0;s4c1@user-Vostro-3470: ~/ceccs18c09/cs232/2802[01;32ms4c1@user-Vostro-3470[00m:[01;34m~/ceccs18c09/cs232/2802[00m$ rm gp_s2.txt
+]0;s4c1@user-Vostro-3470: ~/ceccs18c09/cs232/2802[01;32ms4c1@user-Vostro-3470[00m:[01;34m~/ceccs18c09/cs232/2802[00m$ rm sgpa.txt
+]0;s4c1@user-Vostro-3470: ~/ceccs18c09/cs232/2802[01;32ms4c1@user-Vostro-3470[00m:[01;34m~/ceccs18c09/cs232/2802[00m$ rm cgpa_raw2.txt
+]0;s4c1@user-Vostro-3470: ~/ceccs18c09/cs232/2802[01;32ms4c1@user-Vostro-3470[00m:[01;34m~/ceccs18c09/cs232/2802[00m$ rm cgpa_raw1.txt
+]0;s4c1@user-Vostro-3470: ~/ceccs18c09/cs232/2802[01;32ms4c1@user-Vostro-3470[00m:[01;34m~/ceccs18c09/cs232/2802[00m$ rm cgpa_raw.txt
+]0;s4c1@user-Vostro-3470: ~/ceccs18c09/cs232/2802[01;32ms4c1@user-Vostro-3470[00m:[01;34m~/ceccs18c09/cs232/2802[00m$ 
+]0;s4c1@user-Vostro-3470: ~/ceccs18c09/cs232/2802[01;32ms4c1@user-Vostro-3470[00m:[01;34m~/ceccs18c09/cs232/2802[00m$ #prints the cgpa file
+]0;s4c1@user-Vostro-3470: ~/ceccs18c09/cs232/2802[01;32ms4c1@user-Vostro-3470[00m:[01;34m~/ceccs18c09/cs232/2802[00m$ gedit cgpa.txt^C
+]0;s4c1@user-Vostro-3470: ~/ceccs18c09/cs232/2802[01;32ms4c1@user-Vostro-3470[00m:[01;34m~/ceccs18c09/cs232/2802[00m$ #prints the cgpa file[6Prm cgpa_raw.txt1.txt2.txt[5Psgpa.txtgp_s2.txt1.txtresult_cs2.txt1.txt# Removes temperory files used to processjoin --nocheck-order students.txt  cgpa_raw.txt > cgpa.txt[K[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[16P# Removes temperory files used to process[24Prm result_cs1.txt[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K./script.sh
+[3J[H[2Jjoin: students.txt: No such file or directory
+[3J[H[2Jjoin: students.txt: No such file or directory
+rm: cannot remove 'gp_s1.txt': No such file or directory
+rm: cannot remove 'gp_s2.txt': No such file or directory
+rm: cannot remove 'sgpa.txt': No such file or directory
+rm: cannot remove 'cgpa_raw2.txt': No such file or directory
+rm: cannot remove 'cgpa_raw1.txt': No such file or directory
+rm: cannot remove 'cgpa_raw.txt': No such file or directory
+]0;s4c1@user-Vostro-3470: ~/ceccs18c09/cs232/2802[01;32ms4c1@user-Vostro-3470[00m:[01;34m~/ceccs18c09/cs232/2802[00m$ gedit script [K-s1.sh
+]0;s4c1@user-Vostro-3470: ~/ceccs18c09/cs232/2802[01;32ms4c1@user-Vostro-3470[00m:[01;34m~/ceccs18c09/cs232/2802[00m$ gedit script-s1.sh[C[K[K[K[K[K[K[K[K[K[K[Ktui[Kdents.txt[K[K[K[K[K.txt
+]0;s4c1@user-Vostro-3470: ~/ceccs18c09/cs232/2802[01;32ms4c1@user-Vostro-3470[00m:[01;34m~/ceccs18c09/cs232/2802[00m$ chmod +x script.sh
+chmod: cannot access 'script.sh': No such file or directory
+]0;s4c1@user-Vostro-3470: ~/ceccs18c09/cs232/2802[01;32ms4c1@user-Vostro-3470[00m:[01;34m~/ceccs18c09/cs232/2802[00m$ chmod +x script.sh-.shs.sh1.sh
+]0;s4c1@user-Vostro-3470: ~/ceccs18c09/cs232/2802[01;32ms4c1@user-Vostro-3470[00m:[01;34m~/ceccs18c09/cs232/2802[00m$ ./script-s1.sh
+join: students.txt: No such file or directory
+]0;s4c1@user-Vostro-3470: ~/ceccs18c09/cs232/2802[01;32ms4c1@user-Vostro-3470[00m:[01;34m~/ceccs18c09/cs232/2802[00m$ ./script-s1.shchmod +x script-s1.sh
+]0;s4c1@user-Vostro-3470: ~/ceccs18c09/cs232/2802[01;32ms4c1@user-Vostro-3470[00m:[01;34m~/ceccs18c09/cs232/2802[00m$ chmod +x script-s1.sh[7P./script-s1.shchmod +x script-s1.sh[Kchmod +x script-s1.sh
