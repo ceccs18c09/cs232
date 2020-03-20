@@ -1,0 +1,25 @@
+CEC CS 18 C09 
+20-03-2020
+ANJANA S
+
+
+--------------------------------
+#1: Linux Installation (t6)
+---------------------------------
+
+Command/Shell script/Program name
+---------------------------------
+	
+	# ubuntu installation using CD
+	ubuntu 18.04 LTS
+	
+Output: 
+	
+	# various installation steps are shown in Photos 1-6 (.jpg)
+	
+	# ubuntu 18.04  is installed alongside windows 7
+
+-------------------
+Remarks if any:
+	
+	
