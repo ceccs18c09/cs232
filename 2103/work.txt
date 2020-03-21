@@ -1,0 +1,22 @@
+Script started on Friday 20 March 2020 08:55:13 PM IST
+]0;user@user-desktop: ~/ceccs18c09/cs232/2103user@user-desktop:~/ceccs18c09/cs232/2103$ perl factorial.pl[1@gedit[C[C[C[C[C[C[C[C[C[C[C[C[C[1Pperl[C[C[C[C[C[C[C[C[C[C[C[C[C[1@a[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cgedit[C[C[C[C[C[C[C[C[C[C[C[C[Ctxt[3Preport.txt[1Pscript work.txtgedit report.txt[1Pscript work.txt[3Pgedit add.pl[5Pcd 2103gedit add.pl
+]0;user@user-desktop: ~/ceccs18c09/cs232/2103user@user-desktop:~/ceccs18c09/cs232/2103$ gedit add.plperl factorial.pl[1@gedit[C[C[C[C[C[C[C[C[C[C[C[C[C[1Pperl[C[C[C[C[C[C[C[C[C[C[C[C[C[5Pgedit add.plperl factorial.pl[1P.pl[1P.pl[1P.pl[1P.pl[1P.pl[1P.pl[1P.pl[1P.pl[1P.pla.pld.pld.pl
+Enter the numbers
+4
+7
+Sum = 11
+]0;user@user-desktop: ~/ceccs18c09/cs232/2103user@user-desktop:~/ceccs18c09/cs232/2103$ perl add.pl[1@gedit[C[C[C[C[C[C[C[1P.pl[1P.pl[1P.plm.plu.pll.plt.pl[1P.pl[1P.pl[1P.pl[1P.plperl factorial.pl[1@gedit[C[C[C[C[C[C[C[C[C[C[C[C[C[1Pperl[C[C[C[C[C[C[C[C[C[C[C[C[C[1@a[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cgedit[C[C[C[C[C[C[C[C[C[C[C[C[Ctxt[3Preport.txt[1Pscript work.txtgedit report.txt[1Pscript work.txt[3Pgedit add.pl[5Pcd 2103[3@mkdir[C[C[C[C[C[2Pcd cs232eccs18c09exit[Kperl oddoreven.pl[1@gedit[C[C[C[C[C[C[C[C[C[C[C[C[C
+]0;user@user-desktop: ~/ceccs18c09/cs232/2103user@user-desktop:~/ceccs18c09/cs232/2103$ gedit oddoreven.pl[1P oddoreven.pl[1P oddoreven.pl[1P oddoreven.pl[1P oddoreven.pl[1P oddoreven.plp oddoreven.ple oddoreven.plr oddoreven.pll oddoreven.pl
+Enter a number:5
+Given number is odd 
+]0;user@user-desktop: ~/ceccs18c09/cs232/2103user@user-desktop:~/ceccs18c09/cs232/2103$ perl oddoreven.pl[1@gedit[C[C[C[C[C[C[C[C[C[C[C[C[C[7Pperl add.pl[2Pgedit .plperl factorial.pl[1@gedit[C[C[C[C[C[C[C[C[C[C[C[C[C[1Pperl[C[C[C[C[C[C[C[C[C[C[C[C[C[8Pgedit .plperl add.plgedit oddoreven.pl[1Pperl[C[C[C[C[C[C[C[C[C[C[C[C[C[1@gedit[C[C[C[C[C[C[C[C[C[C[C[C[C[7Pperl add.pl[2Pgedit .plperl factorial.pl[1@gedit[C[C[C[C[C[C[C[C[C[C[C[C[C
+]0;user@user-desktop: ~/ceccs18c09/cs232/2103user@user-desktop:~/ceccs18c09/cs232/2103$ gedit factorial.pl[1Pperl oddoreven.pl[1@gedit[C[C[C[C[C[C[C[C[C[C[C[C[C[7Pperl add.pl[2Pgedit .plperl factorial.pl
+Enter a number: 7
+Factorial is 5040
+]0;user@user-desktop: ~/ceccs18c09/cs232/2103user@user-desktop:~/ceccs18c09/cs232/2103$ perl factorial.pl
+Enter a number: 4
+Factorial is 24
+]0;user@user-desktop: ~/ceccs18c09/cs232/2103user@user-desktop:~/ceccs18c09/cs232/2103$ exit
+exit
+
+Script done on Friday 20 March 2020 08:58:11 PM IST

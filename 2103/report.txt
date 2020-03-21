@@ -1,0 +1,38 @@
+CEC CS 18 C09
+ANJANA S
+--------------------------------
+#1: Perl
+---------------------------------
+Program Name:
+----------------------------
+1.Print sum of two number
+
+
+2.Check whether a number is odd or even
+
+
+3.Find factorial of a number
+
+
+
+------------------------------------
+
+#Output
+-------------------------
+1.
+Enter the numbers
+4
+7
+Sum = 11
+
+2.
+Enter a number:5
+Given number is odd 
+
+3.
+Enter a number: 4
+Factorial is 24
+------------------------------------
+
+
+
