@@ -1,0 +1,186 @@
+Script started on 2020-03-25 10:26:26+0530
+]0;anjana@anjana-desktop: ~/2503[01;32manjana@anjana-desktop[00m:[01;34m~/2503[00m$ sudo apt-get update
+[sudo] password for anjana: 
+0% [Working]            Hit:1 http://in.archive.ubuntu.com/ubuntu bionic InRelease
+0% [Connecting to security.ubuntu.com (91.189.91.39)]0% [1 InRelease gpgv 242 kB] [Waiting for headers] [Connecting to security.ubun                                                                               Hit:2 http://in.archive.ubuntu.com/ubuntu bionic-updates InRelease
+0% [1 InRelease gpgv 242 kB] [Waiting for headers] [Connecting to security.ubun                                                                               Hit:3 http://in.archive.ubuntu.com/ubuntu bionic-backports InRelease
+                                                                               0% [1 InRelease gpgv 242 kB] [Waiting for headers]                                                  0% [Waiting for headers]0% [2 InRelease gpgv 88.7 kB] [Waiting for headers]                                                   Hit:4 http://security.ubuntu.com/ubuntu bionic-security InRelease
+                                                   0% [2 InRelease gpgv 88.7 kB]                             0% [Working]0% [3 InRelease gpgv 74.6 kB]                             0% [Working]0% [4 InRelease gpgv 88.7 kB]                             20% [Working]             Reading package lists... 0%Reading package lists... 0%Reading package lists... 0%Reading package lists... 3%Reading package lists... 3%Reading package lists... 5%Reading package lists... 5%Reading package lists... 7%Reading package lists... 7%Reading package lists... 7%Reading package lists... 7%Reading package lists... 7%Reading package lists... 7%Reading package lists... 7%Reading package lists... 7%Reading package lists... 30%Reading package lists... 32%Reading package lists... 32%Reading package lists... 56%Reading package lists... 56%Reading package lists... 60%Reading package lists... 69%Reading package lists... 69%Reading package lists... 69%Reading package lists... 69%Reading package lists... 70%Reading package lists... 70%Reading package lists... 70%Reading package lists... 70%Reading package lists... 73%Reading package lists... 73%Reading package lists... 75%Reading package lists... 75%Reading package lists... 77%Reading package lists... 77%Reading package lists... 78%Reading package lists... 78%Reading package lists... 78%Reading package lists... 78%Reading package lists... 78%Reading package lists... 78%Reading package lists... 82%Reading package lists... 82%Reading package lists... 85%Reading package lists... 85%Reading package lists... 87%Reading package lists... 87%Reading package lists... 87%Reading package lists... 87%Reading package lists... 87%Reading package lists... 87%Reading package lists... 87%Reading package lists... 87%Reading package lists... 87%Reading package lists... 87%Reading package lists... 87%Reading package lists... 87%Reading package lists... 87%Reading package lists... 87%Reading package lists... 87%Reading package lists... 87%Reading package lists... 87%Reading package lists... 87%Reading package lists... 87%Reading package lists... 87%Reading package lists... 90%Reading package lists... 90%Reading package lists... 91%Reading package lists... 91%Reading package lists... 92%Reading package lists... 93%Reading package lists... 93%Reading package lists... 93%Reading package lists... 93%Reading package lists... 93%Reading package lists... 93%Reading package lists... 93%Reading package lists... 93%Reading package lists... 95%Reading package lists... 95%Reading package lists... 98%Reading package lists... 98%Reading package lists... 99%Reading package lists... 99%Reading package lists... 99%Reading package lists... 99%Reading package lists... 99%Reading package lists... 99%Reading package lists... 99%Reading package lists... 99%Reading package lists... Done
+]0;anjana@anjana-desktop: ~/2503[01;32manjana@anjana-desktop[00m:[01;34m~/2503[00m$ sudo apt-get install vsftpd
+Reading package lists... 0%Reading package lists... 100%Reading package lists... Done
+Building dependency tree... 0%Building dependency tree... 0%Building dependency tree... 50%Building dependency tree... 50%Building dependency tree       
+Reading state information... 0%Reading state information... 0%Reading state information... Done
+The following NEW packages will be installed:
+  vsftpd
+0 upgraded, 1 newly installed, 0 to remove and 98 not upgraded.
+Need to get 115 kB of archives.
+After this operation, 334 kB of additional disk space will be used.
+0% [Working]            Get:1 http://in.archive.ubuntu.com/ubuntu bionic/main amd64 vsftpd amd64 3.0.3-9build1 [115 kB]
+1% [1 vsftpd 1,141 B/115 kB 1%]74% [1 vsftpd 107 kB/115 kB 93%]                                100% [Working]              Fetched 115 kB in 1s (150 kB/s)
+Preconfiguring packages ...
+Selecting previously unselected package vsftpd.
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 163403 files and directories currently installed.)
+Preparing to unpack .../vsftpd_3.0.3-9build1_amd64.deb ...
+Unpacking vsftpd (3.0.3-9build1) ...
+Setting up vsftpd (3.0.3-9build1) ...
+Created symlink /etc/systemd/system/multi-user.target.wants/vsftpd.service → /lib/systemd/system/vsftpd.service.
+Processing triggers for man-db (2.8.3-2ubuntu0.1) ...
+Processing triggers for ureadahead (0.100.0-21) ...
+ureadahead will be reprofiled on next reboot
+Processing triggers for systemd (237-3ubuntu10.33) ...
+]0;anjana@anjana-desktop: ~/2503[01;32manjana@anjana-desktop[00m:[01;34m~/2503[00m$ sudo vim /etc/vsftpd.conf[1P /etc/vsftpd.conf[1P /etc/vsftpd.conf[1P /etc/vsftpd.confg /etc/vsftpd.confe /etc/vsftpd.confd /etc/vsftpd.confi /etc/vsftpd.confy /etc/vsftpd.conf[1P /etc/vsftpd.conft /etc/vsftpd.conf
+
+** (gedit:4833): [1;33mWARNING[0m **: [34m11:05:30.135[0m: Set document metadata failed: Setting attribute metadata::gedit-spell-language not supported
+
+** (gedit:4833): [1;33mWARNING[0m **: [34m11:05:30.135[0m: Set document metadata failed: Setting attribute metadata::gedit-encoding not supported
+
+** (gedit:4833): [1;33mWARNING[0m **: [34m11:05:31.169[0m: Set document metadata failed: Setting attribute metadata::gedit-spell-language not supported
+
+** (gedit:4833): [1;33mWARNING[0m **: [34m11:05:31.169[0m: Set document metadata failed: Setting attribute metadata::gedit-encoding not supported
+
+** (gedit:4833): [1;33mWARNING[0m **: [34m11:05:32.437[0m: Set document metadata failed: Setting attribute metadata::gedit-spell-language not supported
+
+** (gedit:4833): [1;33mWARNING[0m **: [34m11:05:32.437[0m: Set document metadata failed: Setting attribute metadata::gedit-encoding not supported
+
+** (gedit:4833): [1;33mWARNING[0m **: [34m11:05:33.966[0m: Set document metadata failed: Setting attribute metadata::gedit-position not supported
+]0;anjana@anjana-desktop: ~/2503[01;32manjana@anjana-desktop[00m:[01;34m~/2503[00m$ sft[K[K[Kftp localhost
+Connected to localhost.
+220 (vsFTPd 3.0.3)
+Name (localhost:anjana): anjana
+331 Please specify the password.
+Password:
+530 Login incorrect.
+Login failed.
+ftp> Anj[K[K[K^C
+ftp> exit
+221 Goodbye.
+]0;anjana@anjana-desktop: ~/2503[01;32manjana@anjana-desktop[00m:[01;34m~/2503[00m$ ftp localhost
+Connected to localhost.
+220 (vsFTPd 3.0.3)
+Name (localhost:anjana): anjana
+331 Please specify the password.
+Password:
+230 Login successful.
+Remote system type is UNIX.
+Using binary mode to transfer files.
+ftp> exit
+221 Goodbye.
+]0;anjana@anjana-desktop: ~/2503[01;32manjana@anjana-desktop[00m:[01;34m~/2503[00m$ sudo apt-get install apache2
+[sudo] password for anjana: 
+Reading package lists... 0%Reading package lists... 100%Reading package lists... Done
+Building dependency tree... 0%Building dependency tree... 0%Building dependency tree... 50%Building dependency tree... 50%Building dependency tree       
+Reading state information... 0%Reading state information... 0%Reading state information... Done
+The following additional packages will be installed:
+  apache2-bin apache2-data apache2-utils libapr1 libaprutil1
+  libaprutil1-dbd-sqlite3 libaprutil1-ldap liblua5.2-0
+Suggested packages:
+  apache2-doc apache2-suexec-pristine | apache2-suexec-custom
+The following NEW packages will be installed:
+  apache2 apache2-bin apache2-data apache2-utils libapr1 libaprutil1
+  libaprutil1-dbd-sqlite3 libaprutil1-ldap liblua5.2-0
+0 upgraded, 9 newly installed, 0 to remove and 98 not upgraded.
+Need to get 1,712 kB of archives.
+After this operation, 6,921 kB of additional disk space will be used.
+Do you want to continue? [Y/n] y Y
+0% [Working]            Get:1 http://in.archive.ubuntu.com/ubuntu bionic/main amd64 libapr1 amd64 1.6.3-2 [90.9 kB]
+0% [1 libapr1 1,142 B/90.9 kB 1%]                                 6% [Working]            Get:2 http://in.archive.ubuntu.com/ubuntu bionic/main amd64 libaprutil1 amd64 1.6.1-2 [84.4 kB]
+7% [2 libaprutil1 1,142 B/84.4 kB 1%]                                     13% [Waiting for headers]                         Get:3 http://in.archive.ubuntu.com/ubuntu bionic/main amd64 libaprutil1-dbd-sqlite3 amd64 1.6.1-2 [10.6 kB]
+13% [3 libaprutil1-dbd-sqlite3 969 B/10.6 kB 9%]                                                15% [Working]             Get:4 http://in.archive.ubuntu.com/ubuntu bionic/main amd64 libaprutil1-ldap amd64 1.6.1-2 [8,764 B]
+15% [4 libaprutil1-ldap 1,341 B/8,764 B 15%]                                            18% [Working]             Get:5 http://in.archive.ubuntu.com/ubuntu bionic/main amd64 liblua5.2-0 amd64 5.2.4-1.1build1 [108 kB]
+18% [5 liblua5.2-0 758 B/108 kB 1%]23% [5 liblua5.2-0 106 kB/108 kB 98%]                                     25% [Waiting for headers]                         Get:6 http://in.archive.ubuntu.com/ubuntu bionic-updates/main amd64 apache2-bin amd64 2.4.29-1ubuntu4.13 [1,070 kB]
+25% [6 apache2-bin 749 B/1,070 kB 0%]30% [6 apache2-bin 106 kB/1,070 kB 10%]35% [6 apache2-bin 213 kB/1,070 kB 20%]40% [6 apache2-bin 319 kB/1,070 kB 30%]45% [6 apache2-bin 426 kB/1,070 kB 40%]50% [6 apache2-bin 531 kB/1,070 kB 50%]55% [6 apache2-bin 638 kB/1,070 kB 60%]60% [6 apache2-bin 744 kB/1,070 kB 70%]65% [6 apache2-bin 851 kB/1,070 kB 80%]70% [6 apache2-bin 957 kB/1,070 kB 89%]                             203 kB/s 2s75% [6 apache2-bin 1,064 kB/1,070 kB 99%]                           203 kB/s 1s78% [Working]                                                       203 kB/s 1s                                                                               Get:7 http://in.archive.ubuntu.com/ubuntu bionic-updates/main amd64 apache2-utils amd64 2.4.29-1ubuntu4.13 [83.8 kB]
+78% [7 apache2-utils 34 B/83.8 kB 0%]                               203 kB/s 1s84% [Waiting for headers]                                           203 kB/s 1s                                                                               Get:8 http://in.archive.ubuntu.com/ubuntu bionic-updates/main amd64 apache2-data all 2.4.29-1ubuntu4.13 [160 kB]
+84% [8 apache2-data 65 B/160 kB 0%]                                 203 kB/s 1s89% [8 apache2-data 105 kB/160 kB 66%]                              203 kB/s 0s93% [Waiting for headers]                                           203 kB/s 0s                                                                               Get:9 http://in.archive.ubuntu.com/ubuntu bionic-updates/main amd64 apache2 amd64 2.4.29-1ubuntu4.13 [95.1 kB]
+93% [9 apache2 1,398 B/95.1 kB 1%]                                  203 kB/s 0s100% [Working]                                                      203 kB/s 0s                                                                               Fetched 1,712 kB in 8s (205 kB/s)
+Selecting previously unselected package libapr1:amd64.
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 163460 files and directories currently installed.)
+Preparing to unpack .../0-libapr1_1.6.3-2_amd64.deb ...
+Unpacking libapr1:amd64 (1.6.3-2) ...
+Selecting previously unselected package libaprutil1:amd64.
+Preparing to unpack .../1-libaprutil1_1.6.1-2_amd64.deb ...
+Unpacking libaprutil1:amd64 (1.6.1-2) ...
+Selecting previously unselected package libaprutil1-dbd-sqlite3:amd64.
+Preparing to unpack .../2-libaprutil1-dbd-sqlite3_1.6.1-2_amd64.deb ...
+Unpacking libaprutil1-dbd-sqlite3:amd64 (1.6.1-2) ...
+Selecting previously unselected package libaprutil1-ldap:amd64.
+Preparing to unpack .../3-libaprutil1-ldap_1.6.1-2_amd64.deb ...
+Unpacking libaprutil1-ldap:amd64 (1.6.1-2) ...
+Selecting previously unselected package liblua5.2-0:amd64.
+Preparing to unpack .../4-liblua5.2-0_5.2.4-1.1build1_amd64.deb ...
+Unpacking liblua5.2-0:amd64 (5.2.4-1.1build1) ...
+Selecting previously unselected package apache2-bin.
+Preparing to unpack .../5-apache2-bin_2.4.29-1ubuntu4.13_amd64.deb ...
+Unpacking apache2-bin (2.4.29-1ubuntu4.13) ...
+Selecting previously unselected package apache2-utils.
+Preparing to unpack .../6-apache2-utils_2.4.29-1ubuntu4.13_amd64.deb ...
+Unpacking apache2-utils (2.4.29-1ubuntu4.13) ...
+Selecting previously unselected package apache2-data.
+Preparing to unpack .../7-apache2-data_2.4.29-1ubuntu4.13_all.deb ...
+Unpacking apache2-data (2.4.29-1ubuntu4.13) ...
+Selecting previously unselected package apache2.
+Preparing to unpack .../8-apache2_2.4.29-1ubuntu4.13_amd64.deb ...
+Unpacking apache2 (2.4.29-1ubuntu4.13) ...
+Setting up libapr1:amd64 (1.6.3-2) ...
+Setting up apache2-data (2.4.29-1ubuntu4.13) ...
+Setting up libaprutil1:amd64 (1.6.1-2) ...
+Setting up liblua5.2-0:amd64 (5.2.4-1.1build1) ...
+Setting up libaprutil1-ldap:amd64 (1.6.1-2) ...
+Setting up libaprutil1-dbd-sqlite3:amd64 (1.6.1-2) ...
+Setting up apache2-utils (2.4.29-1ubuntu4.13) ...
+Setting up apache2-bin (2.4.29-1ubuntu4.13) ...
+Setting up apache2 (2.4.29-1ubuntu4.13) ...
+Enabling module mpm_event.
+Enabling module authz_core.
+Enabling module authz_host.
+Enabling module authn_core.
+Enabling module auth_basic.
+Enabling module access_compat.
+Enabling module authn_file.
+Enabling module authz_user.
+Enabling module alias.
+Enabling module dir.
+Enabling module autoindex.
+Enabling module env.
+Enabling module mime.
+Enabling module negotiation.
+Enabling module setenvif.
+Enabling module filter.
+Enabling module deflate.
+Enabling module status.
+Enabling module reqtimeout.
+Enabling conf charset.
+Enabling conf localized-error-pages.
+Enabling conf other-vhosts-access-log.
+Enabling conf security.
+Enabling conf serve-cgi-bin.
+Enabling site 000-default.
+Created symlink /etc/systemd/system/multi-user.target.wants/apache2.service → /lib/systemd/system/apache2.service.
+Created symlink /etc/systemd/system/multi-user.target.wants/apache-htcacheclean.service → /lib/systemd/system/apache-htcacheclean.service.
+Processing triggers for libc-bin (2.27-3ubuntu1) ...
+Processing triggers for systemd (237-3ubuntu10.33) ...
+Processing triggers for man-db (2.8.3-2ubuntu0.1) ...
+Processing triggers for ufw (0.36-0ubuntu0.18.04.1) ...
+Processing triggers for ureadahead (0.100.0-21) ...
+]0;anjana@anjana-desktop: ~/2503[01;32manjana@anjana-desktop[00m:[01;34m~/2503[00m$ sudo vim /var/www/html/index.html[C[1P /var/www/html/index.html[1P /var/www/html/index.html[1P /var/www/html/index.htmlg /var/www/html/index.htmle /var/www/html/index.htmld /var/www/html/index.htmli /var/www/html/index.htmlt /var/www/html/index.html
+
+** (gedit:6732): [1;33mWARNING[0m **: [34m11:55:57.722[0m: Set document metadata failed: Setting attribute metadata::gedit-spell-language not supported
+
+** (gedit:6732): [1;33mWARNING[0m **: [34m11:55:57.722[0m: Set document metadata failed: Setting attribute metadata::gedit-encoding not supported
+
+** (gedit:6732): [1;33mWARNING[0m **: [34m11:55:58.773[0m: Set document metadata failed: Setting attribute metadata::gedit-spell-language not supported
+
+** (gedit:6732): [1;33mWARNING[0m **: [34m11:55:58.773[0m: Set document metadata failed: Setting attribute metadata::gedit-encoding not supported
+
+** (gedit:6732): [1;33mWARNING[0m **: [34m11:56:32.955[0m: Set document metadata failed: Setting attribute metadata::gedit-spell-language not supported
+
+** (gedit:6732): [1;33mWARNING[0m **: [34m11:56:32.956[0m: Set document metadata failed: Setting attribute metadata::gedit-encoding not supported
+
+** (gedit:6732): [1;33mWARNING[0m **: [34m11:56:34.057[0m: Set document metadata failed: Setting attribute metadata::gedit-spell-language not supported
+
+** (gedit:6732): [1;33mWARNING[0m **: [34m11:56:34.058[0m: Set document metadata failed: Setting attribute metadata::gedit-encoding not supported
+
+** (gedit:6732): [1;33mWARNING[0m **: [34m11:56:35.859[0m: Set document metadata failed: Setting attribute metadata::gedit-position not supported
+]0;anjana@anjana-desktop: ~/2503[01;32manjana@anjana-desktop[00m:[01;34m~/2503[00m$ exit
+exit
+
+Script done on 2020-03-25 11:59:25+0530
