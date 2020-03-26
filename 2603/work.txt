@@ -1,0 +1,986 @@
+Script started on 2020-03-26 17:22:15+0530
+]0;anjana@anjana-desktop: ~/2603[01;32manjana@anjana-desktop[00m:[01;34m~/2603[00m$ sudo apt-get install nmap[6Pupdate
+[sudo] password for anjana: 
+
+0% [Working]
+0% [Working]
+0% [Connecting to in.archive.ubuntu.com] [Connecting to security.ubuntu.com]
+0% [Connecting to in.archive.ubuntu.com (2403:8940:ffff::f)] [Waiting for heade
+                                                                               
+Get:1 http://security.ubuntu.com/ubuntu bionic-security InRelease [88.7 kB]
+
+                                                                               
+0% [Waiting for headers] [1 InRelease 979 B/88.7 kB 1%]
+                                                       
+Hit:2 http://in.archive.ubuntu.com/ubuntu bionic InRelease
+
+                                                       
+0% [1 InRelease 30.6 kB/88.7 kB 34%]
+0% [2 InRelease gpgv 242 kB] [Waiting for headers] [1 InRelease 30.6 kB/88.7 kB
+                                                                               
+0% [Waiting for headers] [1 InRelease 56.4 kB/88.7 kB 64%]
+                                                          
+0% [Waiting for headers]
+0% [1 InRelease gpgv 88.7 kB] [Waiting for headers]
+                                                   
+Get:3 http://in.archive.ubuntu.com/ubuntu bionic-updates InRelease [88.7 kB]
+
+0% [1 InRelease gpgv 88.7 kB] [3 InRelease 1,142 B/88.7 kB 1%]
+                                                              
+0% [3 InRelease 9,590 B/88.7 kB 11%]
+0% [3 InRelease 22.3 kB/88.7 kB 25%]
+0% [3 InRelease 53.2 kB/88.7 kB 60%]
+                                    
+0% [Working]
+0% [3 InRelease gpgv 88.7 kB] [Waiting for headers]
+                                                   
+0% [Waiting for headers]
+                        
+Get:4 http://in.archive.ubuntu.com/ubuntu bionic-backports InRelease [74.6 kB]
+
+0% [4 InRelease 1,142 B/74.6 kB 2%]
+0% [4 InRelease 60.3 kB/74.6 kB 81%]
+                                    
+0% [Working]
+0% [4 InRelease gpgv 74.6 kB]
+                             
+22% [Waiting for headers]
+                         
+Get:5 http://in.archive.ubuntu.com/ubuntu bionic-updates/main amd64 Packages [892 kB]
+
+22% [5 Packages 1,141 B/892 kB 0%]
+23% [5 Packages 61.7 kB/892 kB 7%]                           51.5 kB/s 1min 38s
+24% [5 Packages 122 kB/892 kB 14%]                           51.5 kB/s 1min 36s
+25% [5 Packages 169 kB/892 kB 19%]                           51.5 kB/s 1min 35s
+25% [5 Packages 172 kB/892 kB 19%]                           51.5 kB/s 1min 35s
+26% [5 Packages 267 kB/892 kB 30%]                           51.5 kB/s 1min 34s
+27% [5 Packages 318 kB/892 kB 36%]                           51.5 kB/s 1min 33s
+28% [5 Packages 360 kB/892 kB 40%]                           51.5 kB/s 1min 32s
+28% [5 Packages 391 kB/892 kB 44%]                           51.5 kB/s 1min 31s
+29% [5 Packages 466 kB/892 kB 52%]                           51.5 kB/s 1min 30s
+30% [5 Packages 516 kB/892 kB 58%]                                                   51.5 kB/s 1min 29s
+31% [5 Packages 563 kB/892 kB 63%]                                                   51.5 kB/s 1min 28s
+31% [5 Packages 612 kB/892 kB 69%]                                                   51.5 kB/s 1min 27s
+32% [5 Packages 664 kB/892 kB 74%]                                                         100 kB/s 44s
+33% [5 Packages 714 kB/892 kB 80%]                                                         100 kB/s 43s
+34% [5 Packages 769 kB/892 kB 86%]                                                         100 kB/s 43s
+34% [5 Packages 825 kB/892 kB 92%]                                                         100 kB/s 42s
+35% [5 Packages 864 kB/892 kB 97%]                                                         100 kB/s 42s
+35% [5 Packages 874 kB/892 kB 98%]                                                         100 kB/s 42s
+35% [Waiting for headers]                                                                  100 kB/s 42s
+                                                                                                       
+Get:6 http://in.archive.ubuntu.com/ubuntu bionic-updates/main i386 Packages [659 kB]
+
+36% [6 Packages 14.2 kB/659 kB 2%]                                                         100 kB/s 41s
+36% [5 Packages store 0 B] [6 Packages 14.2 kB/659 kB 2%]                                  100 kB/s 41s
+36% [6 Packages 14.2 kB/659 kB 2%]                                                         100 kB/s 41s
+37% [6 Packages 113 kB/659 kB 17%]                                                         100 kB/s 40s
+38% [6 Packages 163 kB/659 kB 25%]                                                         100 kB/s 40s
+39% [6 Packages 221 kB/659 kB 34%]                                                         100 kB/s 39s
+40% [6 Packages 280 kB/659 kB 43%]                                                         100 kB/s 39s
+41% [6 Packages 334 kB/659 kB 51%]                                                         100 kB/s 38s
+41% [6 Packages 334 kB/659 kB 51%]                                                         100 kB/s 38s
+42% [6 Packages 458 kB/659 kB 69%]                                                         110 kB/s 34s
+43% [6 Packages 514 kB/659 kB 78%]                                                         110 kB/s 33s
+44% [6 Packages 573 kB/659 kB 87%]                                                         110 kB/s 33s
+45% [6 Packages 632 kB/659 kB 96%]                                                         110 kB/s 32s
+45% [Waiting for headers]                                                                  110 kB/s 32s
+                                                                                                       
+Get:7 http://in.archive.ubuntu.com/ubuntu bionic-updates/main amd64 DEP-11 Metadata [307 kB]
+
+45% [7 Components-amd64 851 B/307 kB 0%]                                                   110 kB/s 32s
+45% [6 Packages store 0 B] [7 Components-amd64 851 B/307 kB 0%]                            110 kB/s 32s
+46% [7 Components-amd64 14.9 kB/307 kB 5%]                                                 110 kB/s 32s
+47% [7 Components-amd64 88.2 kB/307 kB 29%]                                                110 kB/s 31s
+48% [7 Components-amd64 152 kB/307 kB 49%]                                                 110 kB/s 31s
+49% [7 Components-amd64 214 kB/307 kB 70%]                                                 110 kB/s 30s
+50% [7 Components-amd64 273 kB/307 kB 89%]                                                 110 kB/s 29s
+50% [7 Components-amd64 284 kB/307 kB 92%]                                                 110 kB/s 29s
+50% [Waiting for headers]                                                                  110 kB/s 29s
+                                                                                                       
+Get:8 http://in.archive.ubuntu.com/ubuntu bionic-updates/main DEP-11 48x48 Icons [73.8 kB]
+
+51% [8 icons-48x48 52.6 kB/73.8 kB 71%]                                                    110 kB/s 29s
+51% [7 Components-amd64 store 0 B] [8 icons-48x48 52.6 kB/73.8 kB 71%]                     110 kB/s 29s
+51% [8 icons-48x48 62.5 kB/73.8 kB 85%]                                                    110 kB/s 29s
+51% [Waiting for headers]                                                                  110 kB/s 28s
+                                                                                                       
+Get:9 http://in.archive.ubuntu.com/ubuntu bionic-updates/main DEP-11 64x64 Icons [140 kB]
+
+51% [9 icons-64x64 1,070 B/140 kB 1%]                                                      110 kB/s 28s
+51% [8 icons-48x48 store 0 B] [9 icons-64x64 1,070 B/140 kB 1%]                            110 kB/s 28s
+51% [9 icons-64x64 1,070 B/140 kB 1%]                                                      110 kB/s 28s
+52% [9 icons-64x64 51.8 kB/140 kB 37%]                                                     110 kB/s 28s
+53% [9 icons-64x64 107 kB/140 kB 76%]                                                      110 kB/s 27s
+53% [9 icons-64x64 125 kB/140 kB 89%]                                                      112 kB/s 27s
+54% [Working]                                                                              112 kB/s 27s
+                                                                                                       
+Get:10 http://in.archive.ubuntu.com/ubuntu bionic-updates/universe amd64 Packages [1,060 kB]
+
+54% [10 Packages 53.6 kB/1,060 kB 5%]                                                      112 kB/s 26s
+54% [9 icons-64x64 store 0 B] [10 Packages 53.6 kB/1,060 kB 5%]                            112 kB/s 26s
+54% [10 Packages 53.6 kB/1,060 kB 5%]                                                      112 kB/s 26s
+55% [10 Packages 98.7 kB/1,060 kB 9%]                                                      112 kB/s 26s
+56% [10 Packages 148 kB/1,060 kB 14%]                                                      112 kB/s 25s
+57% [10 Packages 194 kB/1,060 kB 18%]                                                      112 kB/s 25s
+57% [10 Packages 241 kB/1,060 kB 23%]                                                      112 kB/s 25s
+57% [10 Packages 255 kB/1,060 kB 24%]                                                      112 kB/s 24s
+58% [10 Packages 325 kB/1,060 kB 31%]                                                      112 kB/s 24s
+59% [10 Packages 361 kB/1,060 kB 34%]                                                      112 kB/s 23s
+60% [10 Packages 401 kB/1,060 kB 38%]                                                      112 kB/s 23s
+60% [10 Packages 444 kB/1,060 kB 42%]                                                      112 kB/s 23s
+61% [10 Packages 486 kB/1,060 kB 46%]                                                      112 kB/s 22s
+61% [10 Packages 527 kB/1,060 kB 50%]                                                      112 kB/s 22s
+62% [10 Packages 570 kB/1,060 kB 54%]                                                     93.2 kB/s 26s
+63% [10 Packages 630 kB/1,060 kB 59%]                                                     93.2 kB/s 25s
+64% [10 Packages 680 kB/1,060 kB 64%]                                                     93.2 kB/s 25s
+65% [10 Packages 729 kB/1,060 kB 69%]                                                     93.2 kB/s 24s
+65% [10 Packages 776 kB/1,060 kB 73%]                                                     93.2 kB/s 24s
+66% [10 Packages 804 kB/1,060 kB 76%]                                                     93.2 kB/s 24s
+67% [10 Packages 877 kB/1,060 kB 83%]                                                     93.2 kB/s 23s
+67% [10 Packages 920 kB/1,060 kB 87%]                                                     93.2 kB/s 22s
+68% [10 Packages 963 kB/1,060 kB 91%]                                                     93.2 kB/s 22s
+69% [10 Packages 1,011 kB/1,060 kB 95%]                                                   93.2 kB/s 21s
+69% [Waiting for headers]                                                                 93.2 kB/s 21s
+                                                                                                       
+Get:11 http://in.archive.ubuntu.com/ubuntu bionic-updates/universe i386 Packages [1,012 kB]
+
+69% [11 Packages 120 B/1,012 kB 0%]                                                       93.2 kB/s 21s
+69% [10 Packages store 0 B] [11 Packages 120 B/1,012 kB 0%]                               93.2 kB/s 21s
+70% [11 Packages 20.5 kB/1,012 kB 2%]                                                     93.2 kB/s 21s
+71% [11 Packages 74.0 kB/1,012 kB 7%]                                                     93.2 kB/s 20s
+71% [11 Packages 130 kB/1,012 kB 13%]                                                      100 kB/s 18s
+72% [11 Packages 181 kB/1,012 kB 18%]                                                      100 kB/s 17s
+73% [11 Packages 230 kB/1,012 kB 23%]                                                      100 kB/s 17s
+74% [11 Packages 285 kB/1,012 kB 28%]                                                      100 kB/s 16s
+75% [11 Packages 333 kB/1,012 kB 33%]                                                      100 kB/s 16s
+75% [11 Packages 381 kB/1,012 kB 38%]                                                      100 kB/s 15s
+76% [11 Packages 436 kB/1,012 kB 43%]                                                      100 kB/s 15s
+77% [11 Packages 494 kB/1,012 kB 49%]                                                      100 kB/s 14s
+78% [11 Packages 544 kB/1,012 kB 54%]                                                      100 kB/s 14s
+79% [11 Packages 617 kB/1,012 kB 61%]                                                      100 kB/s 13s
+80% [11 Packages 699 kB/1,012 kB 69%]                                                      100 kB/s 12s
+81% [11 Packages 762 kB/1,012 kB 75%]                                                      100 kB/s 12s
+81% [11 Packages 767 kB/1,012 kB 76%]                                                      106 kB/s 11s
+81% [11 Packages 767 kB/1,012 kB 76%]                                                      106 kB/s 11s
+84% [11 Packages 950 kB/1,012 kB 94%]                                                       106 kB/s 9s
+84% [11 Packages 993 kB/1,012 kB 98%]                                                       106 kB/s 9s
+84% [11 Packages 993 kB/1,012 kB 98%]                                                       106 kB/s 9s
+85% [Waiting for headers]                                                                   106 kB/s 9s
+                                                                                                       
+Get:12 http://in.archive.ubuntu.com/ubuntu bionic-updates/universe amd64 DEP-11 Metadata [273 kB]
+
+85% [12 Components-amd64 14.5 kB/273 kB 5%]                                                 106 kB/s 9s
+86% [11 Packages store 0 B] [12 Components-amd64 96.6 kB/273 kB 35%]                        106 kB/s 8s
+86% [12 Components-amd64 116 kB/273 kB 43%]                                                 106 kB/s 8s
+87% [12 Components-amd64 178 kB/273 kB 65%]                                                 106 kB/s 7s
+88% [12 Components-amd64 243 kB/273 kB 89%]                                                 106 kB/s 6s
+89% [Waiting for headers]                                                                   106 kB/s 6s
+                                                                                                       
+Get:13 http://in.archive.ubuntu.com/ubuntu bionic-updates/universe DEP-11 48x48 Icons [206 kB]
+
+89% [13 icons-48x48 2,966 B/206 kB 1%]                                                      106 kB/s 6s
+89% [12 Components-amd64 store 0 B] [13 icons-48x48 3,213 B/206 kB 2%]                      106 kB/s 6s
+89% [13 icons-48x48 14.5 kB/206 kB 7%]                                                      106 kB/s 6s
+90% [13 icons-48x48 78.8 kB/206 kB 38%]                                                     106 kB/s 5s
+91% [13 icons-48x48 139 kB/206 kB 68%]                                                      106 kB/s 5s
+92% [13 icons-48x48 203 kB/206 kB 98%]                                                      106 kB/s 4s
+92% [Waiting for headers]                                                                   106 kB/s 4s
+                                                                                                       
+Get:14 http://in.archive.ubuntu.com/ubuntu bionic-updates/universe DEP-11 64x64 Icons [473 kB]
+
+92% [14 icons-64x64 526 B/473 kB 0%]                                                        106 kB/s 4s
+92% [13 icons-48x48 store 0 B] [14 icons-64x64 526 B/473 kB 0%]                             106 kB/s 4s
+92% [14 icons-64x64 526 B/473 kB 0%]                                                        106 kB/s 4s
+93% [14 icons-64x64 61.1 kB/473 kB 13%]                                                     106 kB/s 4s
+94% [14 icons-64x64 119 kB/473 kB 25%]                                                      135 kB/s 2s
+94% [14 icons-64x64 136 kB/473 kB 29%]                                                      135 kB/s 2s
+96% [14 icons-64x64 240 kB/473 kB 51%]                        sudo apt list > package.txt                              135 kB/s 1s
+96% [14 icons-64x64 288 kB/473 kB 61%]                                                      135 kB/s 1ssudo apt list > package.txt
+97% [14 icons-64x64 338 kB/473 kB 72%]                                                      135 kB/s 1s
+98% [14 icons-64x64 395 kB/473 kB 83%]                                                      135 kB/s 0s
+99% [14 icons-64x64 471 kB/473 kB 100%]                                                     135 kB/s 0s
+99% [Working]                                                                               135 kB/s 0s
+                                                                                                       
+Get:15 http://in.archive.ubuntu.com/ubuntu bionic-updates/multiverse amd64 DEP-11 Metadata [2,468 B]
+
+99% [15 Components-amd64 232 B/2,468 B 9%]                                                  135 kB/s 0s
+99% [14 icons-64x64 store 0 B] [15 Components-amd64 232 B/2,468 B 9%]                       135 kB/s 0s
+99% [15 Components-amd64 1,640 B/2,468 B 66%]                                               135 kB/s 0s
+99% [Waiting for headers]                                                                   135 kB/s 0s
+99% [15 Components-amd64 store 0 B] [Waiting for headers]                                   135 kB/s 0s
+99% [Waiting for headers]                                                                   135 kB/s 0s
+                                                                                                       
+Get:16 http://in.archive.ubuntu.com/ubuntu bionic-backports/universe i386 Packages [4,016 B]
+
+99% [16 Packages 1,145 B/4,016 B 29%]                                                       135 kB/s 0s
+99% [Waiting for headers]                                                                   135 kB/s 0s
+                                                                                                       
+Get:17 http://in.archive.ubuntu.com/ubuntu bionic-backports/universe amd64 Packages [4,020 B]
+
+100% [17 Packages 1,090 B/4,020 B 27%]                                                      135 kB/s 0s
+100% [16 Packages store 0 B] [17 Packages 1,090 B/4,020 B 27%]                              135 kB/s 0s
+100% [17 Packages 1,090 B/4,020 B 27%]                                                      135 kB/s 0s
+100% [Working]                                                                              135 kB/s 0s
+                                                                                                       
+Get:18 http://in.archive.ubuntu.com/ubuntu bionic-backports/universe amd64 DEP-11 Metadata [7,980 B]
+
+100% [18 Components-amd64 1,030 B/7,980 B 13%]                                              135 kB/s 0s
+100% [17 Packages store 0 B] [18 Components-amd64 1,030 B/7,980 B 13%]                      135 kB/s 0s
+100% [18 Components-amd64 1,030 B/7,980 B 13%]                                              135 kB/s 0s
+100% [Working]                                                                              135 kB/s 0s
+100% [18 Components-amd64 store 0 B]                                                        135 kB/s 0s
+100% [Working]                                                                              135 kB/s 0s
+                                                                                                       
+Fetched 5,368 kB in 53s (102 kB/s)
+
+Reading package lists... 0%
+
+Reading package lists... 0%
+
+Reading package lists... 0%
+
+Reading package lists... 3%
+
+Reading package lists... 3%
+
+Reading package lists... 5%
+
+Reading package lists... 5%
+
+Reading package lists... 7%
+
+Reading package lists... 7%
+
+Reading package lists... 7%
+
+Reading package lists... 7%
+
+Reading package lists... 7%
+
+Reading package lists... 7%
+
+Reading package lists... 7%
+
+Reading package lists... 7%
+
+Reading package lists... 22%
+
+Reading package lists... 32%
+
+Reading package lists... 32%
+
+Reading package lists... 45%
+
+Reading package lists... 48%
+
+Reading package lists... 52%
+
+Reading package lists... 56%
+
+Reading package lists... 56%
+
+Reading package lists... 57%
+
+Reading package lists... 60%
+
+Reading package lists... 65%
+
+Reading package lists... 69%
+
+Reading package lists... 69%
+
+Reading package lists... 69%
+
+Reading package lists... 69%
+
+Reading package lists... 70%
+
+Reading package lists... 70%
+
+Reading package lists... 70%
+
+Reading package lists... 70%
+
+Reading package lists... 71%
+
+Reading package lists... 73%
+
+Reading package lists... 73%
+
+Reading package lists... 73%
+
+Reading package lists... 75%
+
+Reading package lists... 75%
+
+Reading package lists... 77%
+
+Reading package lists... 77%
+
+Reading package lists... 77%
+
+Reading package lists... 78%
+
+Reading package lists... 78%
+
+Reading package lists... 78%
+
+Reading package lists... 78%
+
+Reading package lists... 78%
+
+Reading package lists... 78%
+
+Reading package lists... 80%
+
+Reading package lists... 82%
+
+Reading package lists... 82%
+
+Reading package lists... 84%
+
+Reading package lists... 85%
+
+Reading package lists... 85%
+
+Reading package lists... 87%
+
+Reading package lists... 87%
+
+Reading package lists... 87%
+
+Reading package lists... 87%
+
+Reading package lists... 87%
+
+Reading package lists... 87%
+
+Reading package lists... 87%
+
+Reading package lists... 87%
+
+Reading package lists... 87%
+
+Reading package lists... 87%
+
+Reading package lists... 87%
+
+Reading package lists... 87%
+
+Reading package lists... 87%
+
+Reading package lists... 87%
+
+Reading package lists... 87%
+
+Reading package lists... 87%
+
+Reading package lists... 87%
+
+Reading package lists... 87%
+
+Reading package lists... 87%
+
+Reading package lists... 87%
+
+Reading package lists... 87%
+
+Reading package lists... 89%
+
+Reading package lists... 89%
+
+Reading package lists... 90%
+
+Reading package lists... 91%
+
+Reading package lists... 91%
+
+Reading package lists... 93%
+
+Reading package lists... 93%
+
+Reading package lists... 93%
+
+Reading package lists... 93%
+
+Reading package lists... 93%
+
+Reading package lists... 93%
+
+Reading package lists... 93%
+
+Reading package lists... 93%
+
+Reading package lists... 94%
+
+Reading package lists... 95%
+
+Reading package lists... 95%
+
+Reading package lists... 98%
+
+Reading package lists... 98%
+
+Reading package lists... 98%
+
+Reading package lists... 99%
+
+Reading package lists... 99%
+
+Reading package lists... 99%
+
+Reading package lists... 99%
+
+Reading package lists... 99%
+
+Reading package lists... 99%
+
+Reading package lists... 99%
+
+Reading package lists... 99%
+
+Reading package lists... 99%
+
+Reading package lists... Done
+
+]0;anjana@anjana-desktop: ~/2603[01;32manjana@anjana-desktop[00m:[01;34m~/2603[00m$ sudo apt-get updateinstall nmap[6Pupdateinstall nmap
+
+Reading package lists... 0%
+
+Reading package lists... 100%
+
+Reading package lists... Done
+
+
+Building dependency tree... 0%
+
+Building dependency tree... 0%
+
+Building dependency tree... 50%
+
+Building dependency tree... 50%
+
+Building dependency tree       
+
+
+Reading state information... 0%
+
+Reading state information... 0%
+
+Reading state information... Done
+
+The following additional packages will be installed:
+  libblas3 liblinear3
+Suggested packages:
+  liblinear-tools liblinear-dev ndiff
+The following NEW packages will be installed:
+  libblas3 liblinear3 nmap
+0 upgraded, 3 newly installed, 0 to remove and 98 not upgraded.
+Need to get 5,353 kB of archives.
+After this operation, 24.5 MB of additional disk space will be used.
+Do you want to continue? [Y/n] Y
+
+0% [Working]
+0% [Waiting for headers]
+                        
+Get:1 http://in.archive.ubuntu.com/ubuntu bionic/main amd64 libblas3 amd64 3.7.1-4ubuntu1 [140 kB]
+
+0% [1 libblas3 1,141 B/140 kB 1%]
+0% [1 libblas3 13.8 kB/140 kB 10%]
+1% [1 libblas3 53.2 kB/140 kB 38%]
+1% [1 libblas3 96.9 kB/140 kB 69%]
+                                  
+9% [Working]
+            
+Get:2 http://in.archive.ubuntu.com/ubuntu bionic/main amd64 liblinear3 amd64 2.1.0+dfsg-2 [39.3 kB]
+
+9% [2 liblinear3 1,143 B/39.3 kB 3%]
+                                    
+16% [Waiting for headers]
+                         
+Get:3 http://in.archive.ubuntu.com/ubuntu bionic/main amd64 nmap amd64 7.60-1ubuntu5 [5,174 kB]
+
+16% [3 nmap 956 B/5,174 kB 0%]
+17% [3 nmap 36.2 kB/5,174 kB 1%]
+17% [3 nmap 81.2 kB/5,174 kB 2%]
+                                
+18% [3 nmap 132 kB/5,174 kB 3%]
+19% [3 nmap 184 kB/5,174 kB 4%]
+20% [3 nmap 242 kB/5,174 kB 5%]                                                      68.6 kB/s 1min 11s
+21% [3 nmap 305 kB/5,174 kB 6%]                                                      68.6 kB/s 1min 10s
+22% [3 nmap 381 kB/5,174 kB 7%]                                                       68.6 kB/s 1min 9s
+23% [3 nmap 456 kB/5,174 kB 9%]                                                       68.6 kB/s 1min 8s
+24% [3 nmap 547 kB/5,174 kB 11%]                                                      68.6 kB/s 1min 7s
+26% [3 nmap 637 kB/5,174 kB 12%]                                                      68.6 kB/s 1min 6s
+27% [3 nmap 730 kB/5,174 kB 14%]                                                      68.6 kB/s 1min 4s
+28% [3 nmap 823 kB/5,174 kB 16%]                                                      68.6 kB/s 1min 3s
+30% [3 nmap 920 kB/5,174 kB 18%]                                                      68.6 kB/s 1min 2s
+31% [3 nmap 1,022 kB/5,174 kB 20%]                                                        68.6 kB/s 60s
+33% [3 nmap 1,119 kB/5,174 kB 22%]                                                        68.6 kB/s 59s
+34% [3 nmap 1,219 kB/5,174 kB 24%]                                                        68.6 kB/s 57s
+36% [3 nmap 1,319 kB/5,174 kB 25%]                                                         179 kB/s 21s
+36% [3 nmap 1,319 kB/5,174 kB 25%]                                                         179 kB/s 21s
+36% [3 nmap 1,319 kB/5,174 kB 25%]                                                         179 kB/s 21s
+36% [3 nmap 1,319 kB/5,174 kB 25%]                                                         179 kB/s 21s
+36% [3 nmap 1,319 kB/5,174 kB 25%]                                                         179 kB/s 21s
+41% [3 nmap 1,650 kB/5,174 kB 32%]                                                         179 kB/s 19s
+41% [3 nmap 1,650 kB/5,174 kB 32%]                                                         179 kB/s 19s
+42% [3 nmap 1,755 kB/5,174 kB 34%]                                                         179 kB/s 19s
+45% [3 nmap 1,957 kB/5,174 kB 38%]                                                         179 kB/s 17s
+45% [3 nmap 1,957 kB/5,174 kB 38%]                                                         179 kB/s 17s
+51% [3 nmap 2,327 kB/5,174 kB 45%]                                                         179 kB/s 15s
+51% [3 nmap 2,338 kB/5,174 kB 45%]                                                         179 kB/s 15s
+51% [3 nmap 2,338 kB/5,174 kB 45%]                                                         170 kB/s 16s
+51% [3 nmap 2,338 kB/5,174 kB 45%]                                                         170 kB/s 16s
+56% [3 nmap 2,673 kB/5,174 kB 52%]                                                         170 kB/s 14s
+57% [3 nmap 2,762 kB/5,174 kB 53%]                                                         170 kB/s 14s
+59% [3 nmap 2,849 kB/5,174 kB 55%]                                                         170 kB/s 13s
+60% [3 nmap 2,935 kB/5,174 kB 57%]                                                         170 kB/s 13s
+61% [3 nmap 3,024 kB/5,174 kB 58%]                                                         170 kB/s 12s
+63% [3 nmap 3,118 kB/5,174 kB 60%]                                                         170 kB/s 12s
+64% [3 nmap 3,206 kB/5,174 kB 62%]                                                         170 kB/s 11s
+65% [3 nmap 3,293 kB/5,174 kB 64%]                                                         170 kB/s 11s
+66% [3 nmap 3,321 kB/5,174 kB 64%]                                                         170 kB/s 10s
+66% [3 nmap 3,321 kB/5,174 kB 64%]                                                         170 kB/s 10s
+66% [3 nmap 3,321 kB/5,174 kB 64%]                                                         164 kB/s 11s
+70% [3 nmap 3,645 kB/5,174 kB 70%]                                                          164 kB/s 9s
+70% [3 nmap 3,645 kB/5,174 kB 70%]                                                          164 kB/s 9s
+74% [3 nmap 3,867 kB/5,174 kB 75%]                                                          164 kB/s 7s
+75% [3 nmap 3,949 kB/5,174 kB 76%]                                                          164 kB/s 7s
+76% [3 nmap 4,035 kB/5,174 kB 78%]                                                          164 kB/s 6s
+78% [3 nmap 4,119 kB/5,174 kB 80%]                                                          164 kB/s 6s
+79% [3 nmap 4,197 kB/5,174 kB 81%]                                                          164 kB/s 5s
+80% [3 nmap 4,287 kB/5,174 kB 83%]                                                          164 kB/s 5s
+81% [3 nmap 4,370 kB/5,174 kB 84%]                                                          164 kB/s 4s
+82% [3 nmap 4,446 kB/5,174 kB 86%]                                                          164 kB/s 4s
+82% [3 nmap 4,446 kB/5,174 kB 86%]                                                          164 kB/s 4s
+85% [3 nmap 4,621 kB/5,174 kB 89%]                                                          216 kB/s 2s
+86% [3 nmap 4,695 kB/5,174 kB 91%]                                                          216 kB/s 2s
+86% [3 nmap 4,695 kB/5,174 kB 91%]                                                          216 kB/s 2s
+89% [3 nmap 4,856 kB/5,174 kB 94%]                                                          216 kB/s 1s
+90% [3 nmap 4,927 kB/5,174 kB 95%]                                                          216 kB/s 1s
+91% [3 nmap 5,005 kB/5,174 kB 97%]                                                          216 kB/s 0s
+92% [3 nmap 5,067 kB/5,174 kB 98%]                                                          216 kB/s 0s
+92% [3 nmap 5,067 kB/5,174 kB 98%]                                                          216 kB/s 0s
+100% [Working]                                                                              216 kB/s 0s
+                                                                                                       
+Fetched 5,353 kB in 34s (159 kB/s)
+Selecting previously unselected package libblas3:amd64.
+(Reading database ... 
+(Reading database ... 5%
+(Reading database ... 10%
+(Reading database ... 15%
+(Reading database ... 20%
+(Reading database ... 25%
+(Reading database ... 30%
+(Reading database ... 35%
+(Reading database ... 40%
+(Reading database ... 45%
+(Reading database ... 50%
+(Reading database ... 55%
+(Reading database ... 60%
+(Reading database ... 65%
+(Reading database ... 70%
+(Reading database ... 75%
+(Reading database ... 80%
+(Reading database ... 85%
+(Reading database ... 90%
+(Reading database ... 95%
+(Reading database ... 100%
+(Reading database ... 164166 files and directories currently installed.)
+Preparing to unpack .../libblas3_3.7.1-4ubuntu1_amd64.deb ...
+Unpacking libblas3:amd64 (3.7.1-4ubuntu1) ...
+Selecting previously unselected package liblinear3:amd64.
+Preparing to unpack .../liblinear3_2.1.0+dfsg-2_amd64.deb ...
+Unpacking liblinear3:amd64 (2.1.0+dfsg-2) ...
+Selecting previously unselected package nmap.
+Preparing to unpack .../nmap_7.60-1ubuntu5_amd64.deb ...
+Unpacking nmap (7.60-1ubuntu5) ...
+Setting up libblas3:amd64 (3.7.1-4ubuntu1) ...
+update-alternatives: using /usr/lib/x86_64-linux-gnu/blas/libblas.so.3 to provide /usr/lib/x86_64-linux-gnu/libblas.so.3 (libblas.so.3-x86_64-linux-gnu) in auto mode
+Setting up liblinear3:amd64 (2.1.0+dfsg-2) ...
+Setting up nmap (7.60-1ubuntu5) ...
+Processing triggers for man-db (2.8.3-2ubuntu0.1) ...
+Processing triggers for libc-bin (2.27-3ubuntu1) ...
+]0;anjana@anjana-desktop: ~/2603[01;32manjana@anjana-desktop[00m:[01;34m~/2603[00m$ SUDO [K[K[K[K[Kd[Ksudo apt remove nmap
+
+Reading package lists... 0%
+
+Reading package lists... 100%
+
+Reading package lists... Done
+
+
+Building dependency tree... 0%
+
+Building dependency tree... 0%
+
+Building dependency tree... 50%
+
+Building dependency tree... 50%
+
+Building dependency tree       
+
+
+Reading state information... 0%
+
+Reading state information... 0%
+
+Reading state information... Done
+
+The following packages were automatically installed and are no longer required:
+  libblas3 liblinear3
+Use 'sudo apt autoremove' to remove them.
+The following packages will be REMOVED:
+  nmap
+0 upgraded, 0 newly installed, 1 to remove and 98 not upgraded.
+After this operation, 24.0 MB disk space will be freed.
+Do you want to continue? [Y/n] y Y
+
+7[0;37r8[1A(Reading database ... 
+(Reading database ... 5%
+(Reading database ... 10%
+(Reading database ... 15%
+(Reading database ... 20%
+(Reading database ... 25%
+(Reading database ... 30%
+(Reading database ... 35%
+(Reading database ... 40%
+(Reading database ... 45%
+(Reading database ... 50%
+(Reading database ... 55%
+(Reading database ... 60%
+(Reading database ... 65%
+(Reading database ... 70%
+(Reading database ... 75%
+(Reading database ... 80%
+(Reading database ... 85%
+(Reading database ... 90%
+(Reading database ... 95%
+(Reading database ... 100%
+(Reading database ... 164990 files and directories currently installed.)
+Removing nmap (7.60-1ubuntu5) ...
+7[38;0f[42m[30mProgress: [  0%][49m[39m [..................................................................................] 87[38;0f[42m[30mProgress: [ 25%][49m[39m [####################..............................................................] 87[38;0f[42m[30mProgress: [ 50%][49m[39m [#########################################.........................................] 87[38;0f[42m[30mProgress: [ 75%][49m[39m [#############################################################.....................] 8Processing triggers for man-db (2.8.3-2ubuntu0.1) ...
+
+7[0;38r8[1A[J]0;anjana@anjana-desktop: ~/2603[01;32manjana@anjana-desktop[00m:[01;34m~/2603[00m$ SU[K[Ksudo [K apt-gr[Ket install tasksel
+
+Reading package lists... 0%
+
+Reading package lists... 100%
+
+Reading package lists... Done
+
+
+Building dependency tree... 0%
+
+Building dependency tree... 0%
+
+Building dependency tree... 50%
+
+Building dependency tree... 50%
+
+Building dependency tree       
+
+
+Reading state information... 0%
+
+Reading state information... 0%
+
+Reading state information... Done
+
+The following packages were automatically installed and are no longer required:
+  libblas3 liblinear3
+Use 'sudo apt autoremove' to remove them.
+The following additional packages will be installed:
+  tasksel-data
+The following NEW packages will be installed:
+  tasksel tasksel-data
+0 upgraded, 2 newly installed, 0 to remove and 98 not upgraded.
+Need to get 34.2 kB of archives.
+After this operation, 292 kB of additional disk space will be used.
+Do you want to continue? [Y/n] y Y
+
+0% [Working]
+0% [Waiting for headers]
+                        
+Get:1 http://in.archive.ubuntu.com/ubuntu bionic/main amd64 tasksel-data all 3.34ubuntu11 [5,476 B]
+
+3% [1 tasksel-data 1,144 B/5,476 B 21%]
+                                       
+23% [Working]
+             
+Get:2 http://in.archive.ubuntu.com/ubuntu bionic/main amd64 tasksel all 3.34ubuntu11 [28.7 kB]
+
+25% [2 tasksel 1,143 B/28.7 kB 4%]
+                                  
+100% [Working]
+              
+Fetched 34.2 kB in 2s (18.8 kB/s)
+Preconfiguring packages ...
+Selecting previously unselected package tasksel-data.
+(Reading database ... 
+(Reading database ... 5%
+(Reading database ... 10%
+(Reading database ... 15%
+(Reading database ... 20%
+(Reading database ... 25%
+(Reading database ... 30%
+(Reading database ... 35%
+(Reading database ... 40%
+(Reading database ... 45%
+(Reading database ... 50%
+(Reading database ... 55%
+(Reading database ... 60%
+(Reading database ... 65%
+(Reading database ... 70%
+(Reading database ... 75%
+(Reading database ... 80%
+(Reading database ... 85%
+(Reading database ... 90%
+(Reading database ... 95%
+(Reading database ... 100%
+(Reading database ... 164180 files and directories currently installed.)
+Preparing to unpack .../tasksel-data_3.34ubuntu11_all.deb ...
+Unpacking tasksel-data (3.34ubuntu11) ...
+Selecting previously unselected package tasksel.
+Preparing to unpack .../tasksel_3.34ubuntu11_all.deb ...
+Unpacking tasksel (3.34ubuntu11) ...
+Setting up tasksel (3.34ubuntu11) ...
+Setting up tasksel-data (3.34ubuntu11) ...
+Processing triggers for man-db (2.8.3-2ubuntu0.1) ...
+]0;anjana@anjana-desktop: ~/2603[01;32manjana@anjana-desktop[00m:[01;34m~/2603[00m$ sudo apt-get install tasksel[8P remove nmap[5@-get install[C[C[C[C[C[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K REMOVE[K[K[K[K[K[Kremo[Kove tasksel
+
+Reading package lists... 0%
+
+Reading package lists... 100%
+
+Reading package lists... Done
+
+
+Building dependency tree... 0%
+
+Building dependency tree... 0%
+
+Building dependency tree... 50%
+
+Building dependency tree... 50%
+
+Building dependency tree       
+
+
+Reading state information... 0%
+
+Reading state information... 0%
+
+Reading state information... Done
+
+The following packages were automatically installed and are no longer required:
+  libblas3 liblinear3
+Use 'sudo apt autoremove' to remove them.
+The following packages will be REMOVED:
+  tasksel tasksel-data
+0 upgraded, 0 newly installed, 2 to remove and 98 not upgraded.
+After this operation, 292 kB disk space will be freed.
+Do you want to continue? [Y/n] Y
+
+7[0;37r8[1A(Reading database ... 
+(Reading database ... 5%
+(Reading database ... 10%
+(Reading database ... 15%
+(Reading database ... 20%
+(Reading database ... 25%
+(Reading database ... 30%
+(Reading database ... 35%
+(Reading database ... 40%
+(Reading database ... 45%
+(Reading database ... 50%
+(Reading database ... 55%
+(Reading database ... 60%
+(Reading database ... 65%
+(Reading database ... 70%
+(Reading database ... 75%
+(Reading database ... 80%
+(Reading database ... 85%
+(Reading database ... 90%
+(Reading database ... 95%
+(Reading database ... 100%
+(Reading database ... 164216 files and directories currently installed.)
+Removing tasksel (3.34ubuntu11) ...
+7[38;0f[42m[30mProgress: [  0%][49m[39m [..................................................................................] 87[38;0f[42m[30mProgress: [ 14%][49m[39m [###########.......................................................................] 87[38;0f[42m[30mProgress: [ 29%][49m[39m [#######################...........................................................] 87[38;0f[42m[30mProgress: [ 43%][49m[39m [###################################...............................................] 8Removing tasksel-data (3.34ubuntu11) ...
+7[38;0f[42m[30mProgress: [ 57%][49m[39m [##############################################....................................] 87[38;0f[42m[30mProgress: [ 71%][49m[39m [##########################################################........................] 87[38;0f[42m[30mProgress: [ 86%][49m[39m [######################################################################............] 8Processing triggers for man-db (2.8.3-2ubuntu0.1) ...
+
+7[0;38r8[1A[J]0;anjana@anjana-desktop: ~/2603[01;32manjana@anjana-desktop[00m:[01;34m~/2603[00m$ sudo apt-get install apache2
+
+Reading package lists... 0%
+
+Reading package lists... 100%
+
+Reading package lists... Done
+
+
+Building dependency tree... 0%
+
+Building dependency tree... 0%
+
+Building dependency tree... 50%
+
+Building dependency tree... 50%
+
+Building dependency tree       
+
+
+Reading state information... 0%
+
+Reading state information... 0%
+
+Reading state information... Done
+
+apache2 is already the newest version (2.4.29-1ubuntu4.13).
+The following packages were automatically installed and are no longer required:
+  libblas3 liblinear3
+Use 'sudo apt autoremove' to remove them.
+0 upgraded, 0 newly installed, 0 to remove and 98 not upgraded.
+]0;anjana@anjana-desktop: ~/2603[01;32manjana@anjana-desktop[00m:[01;34m~/2603[00m$ sudo dpkg-reconfigure apache2
+]0;anjana@anjana-desktop: ~/2603[01;32manjana@anjana-desktop[00m:[01;34m~/2603[00m$ apt-get install -s apache2
+NOTE: This is only a simulation!
+      apt-get needs root privileges for real execution.
+      Keep also in mind that locking is deactivated,
+      so don't depend on the relevance to the real current situation!
+
+Reading package lists... 0%
+
+Reading package lists... 100%
+
+Reading package lists... Done
+
+
+Building dependency tree... 0%
+
+Building dependency tree... 0%
+
+Building dependency tree... 50%
+
+Building dependency tree... 50%
+
+Building dependency tree       
+
+
+Reading state information... 0%
+
+Reading state information... 0%
+
+Reading state information... Done
+
+apache2 is already the newest version (2.4.29-1ubuntu4.13).
+The following packages were automatically installed and are no longer required:
+  libblas3 liblinear3
+Use 'apt autoremove' to remove them.
+0 upgraded, 0 newly installed, 0 to remove and 98 not upgraded.
+]0;anjana@anjana-desktop: ~/2603[01;32manjana@anjana-desktop[00m:[01;34m~/2603[00m$ sudo apt-get autoremove
+
+Reading package lists... 0%
+
+Reading package lists... 100%
+
+Reading package lists... Done
+
+
+Building dependency tree... 0%
+
+Building dependency tree... 0%
+
+Building dependency tree... 50%
+
+Building dependency tree... 50%
+
+Building dependency tree       
+
+
+Reading state information... 0%
+
+Reading state information... 0%
+
+Reading state information... Done
+
+The following packages will be REMOVED:
+  libblas3 liblinear3
+0 upgraded, 0 newly installed, 2 to remove and 98 not upgraded.
+After this operation, 572 kB disk space will be freed.
+Do you want to continue? [Y/n] Y
+(Reading database ... 
+(Reading database ... 5%
+(Reading database ... 10%
+(Reading database ... 15%
+(Reading database ... 20%
+(Reading database ... 25%
+(Reading database ... 30%
+(Reading database ... 35%
+(Reading database ... 40%
+(Reading database ... 45%
+(Reading database ... 50%
+(Reading database ... 55%
+(Reading database ... 60%
+(Reading database ... 65%
+(Reading database ... 70%
+(Reading database ... 75%
+(Reading database ... 80%
+(Reading database ... 85%
+(Reading database ... 90%
+(Reading database ... 95%
+(Reading database ... 100%
+(Reading database ... 164179 files and directories currently installed.)
+Removing liblinear3:amd64 (2.1.0+dfsg-2) ...
+Removing libblas3:amd64 (3.7.1-4ubuntu1) ...
+Processing triggers for libc-bin (2.27-3ubuntu1) ...
+]0;anjana@anjana-desktop: ~/2603[01;32manjana@anjana-desktop[00m:[01;34m~/2603[00m$ sudo apt list > package.txt
+
+WARNING: apt does not have a stable CLI interface. Use with caution in scripts.
+
+]0;anjana@anjana-desktop: ~/2603[01;32manjana@anjana-desktop[00m:[01;34m~/2603[00m$ sudo apt list > package.txt
+
+WARNING: apt does not have a stable CLI interface. Use with caution in scripts.
+
+]0;anjana@anjana-desktop: ~/2603[01;32manjana@anjana-desktop[00m:[01;34m~/2603[00m$ sudo apt list > package.txt
+
+WARNING: apt does not have a stable CLI interface. Use with caution in scripts.
+
+]0;anjana@anjana-desktop: ~/2603[01;32manjana@anjana-desktop[00m:[01;34m~/2603[00m$ ok[K[Ksudo apt list > package.txt[4P-get autoremove
+
+Reading package lists... 0%
+
+Reading package lists... 100%
+
+Reading package lists... Done
+
+
+Building dependency tree... 0%
+
+Building dependency tree... 0%
+
+Building dependency tree... 50%
+
+Building dependency tree... 50%
+
+Building dependency tree       
+
+
+Reading state information... 0%
+
+Reading state information... 0%
+
+Reading state information... Done
+
+0 upgraded, 0 newly installed, 0 to remove and 98 not upgraded.
+]0;anjana@anjana-desktop: ~/2603[01;32manjana@anjana-desktop[00m:[01;34m~/2603[00m$ sudo apt-get autoremove list > package.txt
+
+WARNING: apt does not have a stable CLI interface. Use with caution in scripts.
+
+]0;anjana@anjana-desktop: ~/2603[01;32manjana@anjana-desktop[00m:[01;34m~/2603[00m$ sudo apt list > package.txt[C[1Ppackage.txt[C[1P>package.txt
+
+WARNING: apt does not have a stable CLI interface. Use with caution in scripts.
+
+]0;anjana@anjana-desktop: ~/2603[01;32manjana@anjana-desktop[00m:[01;34m~/2603[00m$ exit
+exit
+
+Script done on 2020-03-26 17:41:39+0530
