@@ -1,0 +1,78 @@
+CEC CS 18 C 09
+ANJANA S
+
+--------------------------------
+#1: Aim/task
+
+(t8) Further tasks
+   3. LAMP stack
+---------------------------------
+Command/Shell script/Program name
+
+        # update list
+            sudo apt update
+
+
+        # install apache2
+            sudo apt-get install apache2
+
+
+        # install my-sql
+            sudo apt-get install MySQL-server
+
+
+	# to start MySQLserver
+           sudo service mysql start 
+
+
+	# log in to MySQL
+             mysql -u root -p
+
+
+        # to show databases
+          show databases;
+
+
+
+        # PHP installation
+           sudo apt install php libapache2-mod-php php-mysql
+
+
+        # Creating PHP file info
+            nano info.php
+
+       
+        # Creating PHP file index
+            nano index.php
+
+  
+	#PHP version viewed through
+         http://localhost/info.php or 192.168.1.3/info.php
+
+
+
+---------------------------------
+
+Input: (If relevant)
+---------------
+php file
+ info.php
+ index.php
+
+--------------------------------
+Output: or Input & Output (whichever is applicable)
+
+#MySQL list of database -screenshot 1.png 
+#info.php -screenshot 2.png
+#index.php -screenshot 3.png
+
+
+-------------------
+Remarks if any:
+
+
+
+
+
+-------------------------------------
+-------------------------------------

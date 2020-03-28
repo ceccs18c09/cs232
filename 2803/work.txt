@@ -1,0 +1,240 @@
+Script started on 2020-03-28 19:59:13+0530
+]0;anjana@anjana-desktop: ~/2803[01;32manjana@anjana-desktop[00m:[01;34m~/2803[00m$ sudo apt-get update
+[sudo] password for anjana: 
+0% [Working]0% [Connecting to security.ubuntu.com (91.189.88.152)]0% [Connecting to security.ubuntu.com (91.189.88.142)]0% [Connecting to in.archive.ubuntu.com (2403:8940:ffff::f)] [Waiting for heade                                                                               Get:1 http://security.ubuntu.com/ubuntu bionic-security InRelease [88.7 kB]
+0% [Connecting to in.archive.ubuntu.com (2403:8940:ffff::f)] [1 InRelease 979 B                                                                               Hit:2 http://in.archive.ubuntu.com/ubuntu bionic InRelease
+                                                                               0% [1 InRelease 29.3 kB/88.7 kB 33%]0% [2 InRelease gpgv 242 kB] [Waiting for headers] [1 InRelease 29.3 kB/88.7 kB                                                                               0% [Waiting for headers] [1 InRelease 39.6 kB/88.7 kB 45%]                                                          Hit:3 http://in.archive.ubuntu.com/ubuntu bionic-updates InRelease
+                                                          0% [1 InRelease 64.1 kB/88.7 kB 72%]0% [3 InRelease gpgv 88.7 kB] [Waiting for headers] [1 InRelease 64.1 kB/88.7 k                                                                               0% [Waiting for headers] [1 InRelease 82.1 kB/88.7 kB 93%]                                                          0% [Waiting for headers]0% [1 InRelease gpgv 88.7 kB] [Waiting for headers]                                                   0% [Waiting for headers]0% [Waiting for headers]0% [Waiting for headers]                        Hit:4 http://in.archive.ubuntu.com/ubuntu bionic-backports InRelease
+                        0% [Working]0% [4 InRelease gpgv 74.6 kB]                             100% [Working]              Fetched 88.7 kB in 4s (20.5 kB/s)
+Reading package lists... 0%Reading package lists... 0%Reading package lists... 0%Reading package lists... 3%Reading package lists... 3%Reading package lists... 5%Reading package lists... 5%Reading package lists... 7%Reading package lists... 7%Reading package lists... 7%Reading package lists... 7%Reading package lists... 7%Reading package lists... 7%Reading package lists... 7%Reading package lists... 7%Reading package lists... 31%Reading package lists... 32%Reading package lists... 32%Reading package lists... 56%Reading package lists... 56%Reading package lists... 69%Reading package lists... 69%Reading package lists... 69%Reading package lists... 69%Reading package lists... 70%Reading package lists... 70%Reading package lists... 70%Reading package lists... 70%Reading package lists... 73%Reading package lists... 73%Reading package lists... 74%Reading package lists... 75%Reading package lists... 75%Reading package lists... 77%Reading package lists... 77%Reading package lists... 78%Reading package lists... 78%Reading package lists... 78%Reading package lists... 78%Reading package lists... 78%Reading package lists... 78%Reading package lists... 82%Reading package lists... 82%Reading package lists... 85%Reading package lists... 85%Reading package lists... 87%Reading package lists... 87%Reading package lists... 87%Reading package lists... 87%Reading package lists... 87%Reading package lists... 87%Reading package lists... 87%Reading package lists... 87%Reading package lists... 87%Reading package lists... 87%Reading package lists... 87%Reading package lists... 87%Reading package lists... 87%Reading package lists... 87%Reading package lists... 87%Reading package lists... 87%Reading package lists... 87%Reading package lists... 87%Reading package lists... 87%Reading package lists... 87%Reading package lists... 89%Reading package lists... 89%Reading package lists... 91%Reading package lists... 91%Reading package lists... 93%Reading package lists... 93%Reading package lists... 93%Reading package lists... 93%Reading package lists... 93%Reading package lists... 93%Reading package lists... 93%Reading package lists... 93%Reading package lists... 95%Reading package lists... 95%Reading package lists... 98%Reading package lists... 98%Reading package lists... 99%Reading package lists... 99%Reading package lists... 99%Reading package lists... 99%Reading package lists... 99%Reading package lists... 99%Reading package lists... 99%Reading package lists... 99%Reading package lists... Done
+]0;anjana@anjana-desktop: ~/2803[01;32manjana@anjana-desktop[00m:[01;34m~/2803[00m$ sudo apt-get update[12Pcd 2803[K[K[K[K[K[K[Ksudo apt-get install apache2
+Reading package lists... 0%Reading package lists... 100%Reading package lists... Done
+Building dependency tree... 0%Building dependency tree... 0%Building dependency tree... 50%Building dependency tree... 50%Building dependency tree       
+Reading state information... 0%Reading state information... 0%Reading state information... Done
+apache2 is already the newest version (2.4.29-1ubuntu4.13).
+0 upgraded, 0 newly installed, 0 to remove and 46 not upgraded.
+]0;anjana@anjana-desktop: ~/2803[01;32manjana@anjana-desktop[00m:[01;34m~/2803[00m$ sudo service apache2 start
+]0;anjana@anjana-desktop: ~/2803[01;32manjana@anjana-desktop[00m:[01;34m~/2803[00m$ sudo apt install mysql-server 
+Reading package lists... 0%Reading package lists... 100%Reading package lists... Done
+Building dependency tree... 0%Building dependency tree... 0%Building dependency tree... 50%Building dependency tree... 50%Building dependency tree       
+Reading state information... 0%Reading state information... 0%Reading state information... Done
+The following additional packages will be installed:
+  libaio1 libevent-core-2.1-6 mysql-client-5.7 mysql-client-core-5.7
+  mysql-common mysql-server-5.7 mysql-server-core-5.7
+Suggested packages:
+  mailx tinyca
+The following NEW packages will be installed:
+  libaio1 libevent-core-2.1-6 mysql-client-5.7 mysql-client-core-5.7
+  mysql-common mysql-server mysql-server-5.7 mysql-server-core-5.7
+0 upgraded, 8 newly installed, 0 to remove and 46 not upgraded.
+Need to get 0 B/19.1 MB of archives.
+After this operation, 155 MB of additional disk space will be used.
+Do you want to continue? [Y/n] y
+Preconfiguring packages ...
+
+7[0;23r8[1ASelecting previously unselected package mysql-common.
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 164174 files and directories currently installed.)
+Preparing to unpack .../0-mysql-common_5.8+1.0.4_all.deb ...
+7[24;0f[42m[30mProgress: [  0%][49m[39m [..........................................................] 87[24;0f[42m[30mProgress: [  2%][49m[39m [#.........................................................] 8Unpacking mysql-common (5.8+1.0.4) ...
+7[24;0f[42m[30mProgress: [  5%][49m[39m [##........................................................] 87[24;0f[42m[30mProgress: [  7%][49m[39m [####......................................................] 8Selecting previously unselected package libaio1:amd64.
+Preparing to unpack .../1-libaio1_0.3.110-5ubuntu0.1_amd64.deb ...
+7[24;0f[42m[30mProgress: [ 10%][49m[39m [#####.....................................................] 8Unpacking libaio1:amd64 (0.3.110-5ubuntu0.1) ...
+7[24;0f[42m[30mProgress: [ 12%][49m[39m [#######...................................................] 87[24;0f[42m[30mProgress: [ 15%][49m[39m [########..................................................] 8Selecting previously unselected package mysql-client-core-5.7.
+Preparing to unpack .../2-mysql-client-core-5.7_5.7.29-0ubuntu0.18.04.1_amd64.deb ...
+7[24;0f[42m[30mProgress: [ 17%][49m[39m [#########.................................................] 8Unpacking mysql-client-core-5.7 (5.7.29-0ubuntu0.18.04.1) ...
+7[24;0f[42m[30mProgress: [ 20%][49m[39m [###########...............................................] 87[24;0f[42m[30mProgress: [ 22%][49m[39m [############..............................................] 8Selecting previously unselected package mysql-client-5.7.
+Preparing to unpack .../3-mysql-client-5.7_5.7.29-0ubuntu0.18.04.1_amd64.deb ...
+7[24;0f[42m[30mProgress: [ 24%][49m[39m [##############............................................] 8Unpacking mysql-client-5.7 (5.7.29-0ubuntu0.18.04.1) ...
+7[24;0f[42m[30mProgress: [ 27%][49m[39m [###############...........................................] 87[24;0f[42m[30mProgress: [ 29%][49m[39m [################..........................................] 8Selecting previously unselected package mysql-server-core-5.7.
+Preparing to unpack .../4-mysql-server-core-5.7_5.7.29-0ubuntu0.18.04.1_amd64.deb ...
+7[24;0f[42m[30mProgress: [ 32%][49m[39m [##################........................................] 8Unpacking mysql-server-core-5.7 (5.7.29-0ubuntu0.18.04.1) ...
+7[24;0f[42m[30mProgress: [ 34%][49m[39m [###################.......................................] 87[24;0f[42m[30mProgress: [ 37%][49m[39m [#####################.....................................] 8Selecting previously unselected package libevent-core-2.1-6:amd64.
+Preparing to unpack .../5-libevent-core-2.1-6_2.1.8-stable-4build1_amd64.deb ...
+7[24;0f[42m[30mProgress: [ 39%][49m[39m [######################....................................] 8Unpacking libevent-core-2.1-6:amd64 (2.1.8-stable-4build1) ...
+7[24;0f[42m[30mProgress: [ 41%][49m[39m [########################..................................] 87[24;0f[42m[30mProgress: [ 44%][49m[39m [#########################.................................] 8Setting up mysql-common (5.8+1.0.4) ...
+7[24;0f[42m[30mProgress: [ 46%][49m[39m [##########################................................] 8update-alternatives: using /etc/mysql/my.cnf.fallback to provide /etc/mysql/my.cnf (my.cnf) in auto mode
+7[24;0f[42m[30mProgress: [ 49%][49m[39m [############################..............................] 8Selecting previously unselected package mysql-server-5.7.
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 164342 files and directories currently installed.)
+Preparing to unpack .../mysql-server-5.7_5.7.29-0ubuntu0.18.04.1_amd64.deb ...
+7[24;0f[42m[30mProgress: [ 51%][49m[39m [#############################.............................] 8Unpacking mysql-server-5.7 (5.7.29-0ubuntu0.18.04.1) ...
+7[24;0f[42m[30mProgress: [ 54%][49m[39m [###############################...........................] 87[24;0f[42m[30mProgress: [ 56%][49m[39m [################################..........................] 8Selecting previously unselected package mysql-server.
+Preparing to unpack .../mysql-server_5.7.29-0ubuntu0.18.04.1_all.deb ...
+7[24;0f[42m[30mProgress: [ 59%][49m[39m [#################################.........................] 8Unpacking mysql-server (5.7.29-0ubuntu0.18.04.1) ...
+7[24;0f[42m[30mProgress: [ 61%][49m[39m [###################################.......................] 87[24;0f[42m[30mProgress: [ 63%][49m[39m [####################################......................] 8Setting up libevent-core-2.1-6:amd64 (2.1.8-stable-4build1) ...
+7[24;0f[42m[30mProgress: [ 66%][49m[39m [######################################....................] 87[24;0f[42m[30mProgress: [ 68%][49m[39m [#######################################...................] 8Setting up libaio1:amd64 (0.3.110-5ubuntu0.1) ...
+7[24;0f[42m[30mProgress: [ 71%][49m[39m [#########################################.................] 87[24;0f[42m[30mProgress: [ 73%][49m[39m [##########################################................] 8Setting up mysql-client-core-5.7 (5.7.29-0ubuntu0.18.04.1) ...
+7[24;0f[42m[30mProgress: [ 76%][49m[39m [###########################################...............] 87[24;0f[42m[30mProgress: [ 78%][49m[39m [#############################################.............] 8Setting up mysql-server-core-5.7 (5.7.29-0ubuntu0.18.04.1) ...
+7[24;0f[42m[30mProgress: [ 80%][49m[39m [##############################################............] 87[24;0f[42m[30mProgress: [ 83%][49m[39m [################################################..........] 8Setting up mysql-client-5.7 (5.7.29-0ubuntu0.18.04.1) ...
+7[24;0f[42m[30mProgress: [ 85%][49m[39m [#################################################.........] 87[24;0f[42m[30mProgress: [ 88%][49m[39m [##################################################........] 8Setting up mysql-server-5.7 (5.7.29-0ubuntu0.18.04.1) ...
+7[24;0f[42m[30mProgress: [ 90%][49m[39m [####################################################......] 8update-alternatives: using /etc/mysql/mysql.cnf to provide /etc/mysql/my.cnf (my.cnf) in auto mode
+Renaming removed key_buffer and myisam-recover options (if present)
+
+7[0;37r8[1A7[38;0f[42m[30mProgress: [ 90%][49m[39m [##########################################################################........] 8Created symlink /etc/systemd/system/multi-user.target.wants/mysql.service → /lib/systemd/system/mysql.service.
+7[38;0f[42m[30mProgress: [ 93%][49m[39m [############################################################################......] 8Setting up mysql-server (5.7.29-0ubuntu0.18.04.1) ...
+7[38;0f[42m[30mProgress: [ 95%][49m[39m [##############################################################################....] 87[38;0f[42m[30mProgress: [ 98%][49m[39m [################################################################################..] 8Processing triggers for libc-bin (2.27-3ubuntu1) ...
+Processing triggers for systemd (237-3ubuntu10.38) ...
+Processing triggers for man-db (2.8.3-2ubuntu0.1) ...
+Processing triggers for ureadahead (0.100.0-21) ...
+
+7[0;38r8[1A[J]0;anjana@anjana-desktop: ~/2803[01;32manjana@anjana-desktop[00m:[01;34m~/2803[00m$ 
+]0;anjana@anjana-desktop: ~/2803[01;32manjana@anjana-desktop[00m:[01;34m~/2803[00m$ sudo service mysql start
+]0;anjana@anjana-desktop: ~/2803[01;32manjana@anjana-desktop[00m:[01;34m~/2803[00m$ sudo mysql -u root -p
+Enter password: 
+Welcome to the MySQL monitor.  Commands end with ; or \g.
+Your MySQL connection id is 2
+Server version: 5.7.29-0ubuntu0.18.04.1 (Ubuntu)
+
+Copyright (c) 2000, 2020, Oracle and/or its affiliates. All rights reserved.
+
+Oracle is a registered trademark of Oracle Corporation and/or its
+affiliates. Other names may be trademarks of their respective
+owners.
+
+Type 'help;' or '\h' for help. Type '\c' to clear the current input statement.
+
+mysql> show databases;
++--------------------+
+| Database           |
++--------------------+
+| information_schema |
+| mysql              |
+| performance_schema |
+| sys                |
++--------------------+
+4 rows in set (0.03 sec)
+
+mysql> exit
+Bye
+]0;anjana@anjana-desktop: ~/2803[01;32manjana@anjana-desktop[00m:[01;34m~/2803[00m$ sudo apt install php libapache2-mod-php php-mysql
+Reading package lists... 0%Reading package lists... 100%Reading package lists... Done
+Building dependency tree... 0%Building dependency tree... 0%Building dependency tree... 50%Building dependency tree... 50%Building dependency tree       
+Reading state information... 0%Reading state information... 0%Reading state information... Done
+The following additional packages will be installed:
+  libapache2-mod-php7.2 php-common php7.2 php7.2-cli php7.2-common php7.2-json php7.2-mysql
+  php7.2-opcache php7.2-readline
+Suggested packages:
+  php-pear
+The following NEW packages will be installed:
+  libapache2-mod-php libapache2-mod-php7.2 php php-common php-mysql php7.2 php7.2-cli php7.2-common
+  php7.2-json php7.2-mysql php7.2-opcache php7.2-readline
+0 upgraded, 12 newly installed, 0 to remove and 46 not upgraded.
+Need to get 119 kB/3,991 kB of archives.
+After this operation, 17.6 MB of additional disk space will be used.
+Do you want to continue? [Y/n] y
+[33m94% [Working][0m[33m94% [Connecting to in.archive.ubuntu.com (2403:8940:ffff::f)][0m[33m94% [Connecting to in.archive.ubuntu.com (2403:8940:ffff::f)][0m[33m94% [Connecting to in.archive.ubuntu.com (2403:8940:ffff::f)][0m[33m                                                             94% [Waiting for headers][0m[33m94% [Waiting for headers][0m                         Get:1 http://in.archive.ubuntu.com/ubuntu bionic-updates/main amd64 php7.2-mysql amd64 7.2.24-0ubuntu0.18.04.3 [117 kB]
+[33m94% [1 php7.2-mysql 1,141 B/117 kB 1%][0m[33m95% [1 php7.2-mysql 30.7 kB/117 kB 26%][0m[33m96% [1 php7.2-mysql 70.1 kB/117 kB 60%][0m[33m                                       98% [Working][0m[33m98% [Waiting for headers][0m[33m98% [Waiting for headers][0m[33m98% [Waiting for headers][0m[33m98% [Waiting for headers]                                                                   625 kB/s 0s[0m[33m98% [Waiting for headers]                                                                   625 kB/s 0s[0m[33m98% [Waiting for headers]                                                                   625 kB/s 0s[0m[33m98% [Waiting for headers]                                                                   625 kB/s 0s[0m[33m98% [Waiting for headers]                                                                   625 kB/s 0s[0m                                                                                                       Get:2 http://in.archive.ubuntu.com/ubuntu bionic/main amd64 php-mysql all 1:7.2+60ubuntu1 [2,004 B]
+[33m98% [2 php-mysql 0 B/2,004 B 0%]                                                            625 kB/s 0s[0m[33m100% [Working]                                                                              625 kB/s 0s[0m                                                                                                       Fetched 119 kB in 9s (13.9 kB/s)
+
+7[0;37r8[1ASelecting previously unselected package php-common.
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 164432 files and directories currently installed.)
+Preparing to unpack .../00-php-common_1%3a60ubuntu1_all.deb ...
+7[38;0f[42m[30mProgress: [  0%][49m[39m [..................................................................................] 87[38;0f[42m[30mProgress: [  2%][49m[39m [#.................................................................................] 8Unpacking php-common (1:60ubuntu1) ...
+7[38;0f[42m[30mProgress: [  3%][49m[39m [##................................................................................] 87[38;0f[42m[30mProgress: [  5%][49m[39m [####..............................................................................] 8Selecting previously unselected package php7.2-common.
+Preparing to unpack .../01-php7.2-common_7.2.24-0ubuntu0.18.04.3_amd64.deb ...
+7[38;0f[42m[30mProgress: [  7%][49m[39m [#####.............................................................................] 8Unpacking php7.2-common (7.2.24-0ubuntu0.18.04.3) ...
+7[38;0f[42m[30mProgress: [  8%][49m[39m [######............................................................................] 87[38;0f[42m[30mProgress: [ 10%][49m[39m [########..........................................................................] 8Selecting previously unselected package php7.2-json.
+Preparing to unpack .../02-php7.2-json_7.2.24-0ubuntu0.18.04.3_amd64.deb ...
+7[38;0f[42m[30mProgress: [ 11%][49m[39m [#########.........................................................................] 8Unpacking php7.2-json (7.2.24-0ubuntu0.18.04.3) ...
+7[38;0f[42m[30mProgress: [ 13%][49m[39m [##########........................................................................] 87[38;0f[42m[30mProgress: [ 15%][49m[39m [############......................................................................] 8Selecting previously unselected package php7.2-opcache.
+Preparing to unpack .../03-php7.2-opcache_7.2.24-0ubuntu0.18.04.3_amd64.deb ...
+7[38;0f[42m[30mProgress: [ 16%][49m[39m [#############.....................................................................] 8Unpacking php7.2-opcache (7.2.24-0ubuntu0.18.04.3) ...
+7[38;0f[42m[30mProgress: [ 18%][49m[39m [##############....................................................................] 87[38;0f[42m[30mProgress: [ 20%][49m[39m [################..................................................................] 8Selecting previously unselected package php7.2-readline.
+Preparing to unpack .../04-php7.2-readline_7.2.24-0ubuntu0.18.04.3_amd64.deb ...
+7[38;0f[42m[30mProgress: [ 21%][49m[39m [#################.................................................................] 8Unpacking php7.2-readline (7.2.24-0ubuntu0.18.04.3) ...
+7[38;0f[42m[30mProgress: [ 23%][49m[39m [##################................................................................] 87[38;0f[42m[30mProgress: [ 25%][49m[39m [####################..............................................................] 8Selecting previously unselected package php7.2-cli.
+Preparing to unpack .../05-php7.2-cli_7.2.24-0ubuntu0.18.04.3_amd64.deb ...
+7[38;0f[42m[30mProgress: [ 26%][49m[39m [#####################.............................................................] 8Unpacking php7.2-cli (7.2.24-0ubuntu0.18.04.3) ...
+7[38;0f[42m[30mProgress: [ 28%][49m[39m [######################............................................................] 87[38;0f[42m[30mProgress: [ 30%][49m[39m [########################..........................................................] 8Selecting previously unselected package libapache2-mod-php7.2.
+Preparing to unpack .../06-libapache2-mod-php7.2_7.2.24-0ubuntu0.18.04.3_amd64.deb ...
+7[38;0f[42m[30mProgress: [ 31%][49m[39m [#########################.........................................................] 8Unpacking libapache2-mod-php7.2 (7.2.24-0ubuntu0.18.04.3) ...
+7[38;0f[42m[30mProgress: [ 33%][49m[39m [##########################........................................................] 87[38;0f[42m[30mProgress: [ 34%][49m[39m [############################......................................................] 8Selecting previously unselected package libapache2-mod-php.
+Preparing to unpack .../07-libapache2-mod-php_1%3a7.2+60ubuntu1_all.deb ...
+7[38;0f[42m[30mProgress: [ 36%][49m[39m [#############################.....................................................] 8Unpacking libapache2-mod-php (1:7.2+60ubuntu1) ...
+7[38;0f[42m[30mProgress: [ 38%][49m[39m [##############################....................................................] 87[38;0f[42m[30mProgress: [ 39%][49m[39m [################################..................................................] 8Selecting previously unselected package php7.2.
+Preparing to unpack .../08-php7.2_7.2.24-0ubuntu0.18.04.3_all.deb ...
+7[38;0f[42m[30mProgress: [ 41%][49m[39m [#################################.................................................] 8Unpacking php7.2 (7.2.24-0ubuntu0.18.04.3) ...
+7[38;0f[42m[30mProgress: [ 43%][49m[39m [##################################................................................] 87[38;0f[42m[30mProgress: [ 44%][49m[39m [####################################..............................................] 8Selecting previously unselected package php.
+Preparing to unpack .../09-php_1%3a7.2+60ubuntu1_all.deb ...
+7[38;0f[42m[30mProgress: [ 46%][49m[39m [#####################################.............................................] 8Unpacking php (1:7.2+60ubuntu1) ...
+7[38;0f[42m[30mProgress: [ 48%][49m[39m [######################################............................................] 87[38;0f[42m[30mProgress: [ 49%][49m[39m [########################################..........................................] 8Selecting previously unselected package php7.2-mysql.
+Preparing to unpack .../10-php7.2-mysql_7.2.24-0ubuntu0.18.04.3_amd64.deb ...
+7[38;0f[42m[30mProgress: [ 51%][49m[39m [#########################################.........................................] 8Unpacking php7.2-mysql (7.2.24-0ubuntu0.18.04.3) ...
+7[38;0f[42m[30mProgress: [ 52%][49m[39m [###########################################.......................................] 87[38;0f[42m[30mProgress: [ 54%][49m[39m [############################################......................................] 8Selecting previously unselected package php-mysql.
+Preparing to unpack .../11-php-mysql_1%3a7.2+60ubuntu1_all.deb ...
+7[38;0f[42m[30mProgress: [ 56%][49m[39m [#############################################.....................................] 8Unpacking php-mysql (1:7.2+60ubuntu1) ...
+7[38;0f[42m[30mProgress: [ 57%][49m[39m [###############################################...................................] 87[38;0f[42m[30mProgress: [ 59%][49m[39m [################################################..................................] 8Setting up php-common (1:60ubuntu1) ...
+7[38;0f[42m[30mProgress: [ 61%][49m[39m [#################################################.................................] 8Created symlink /etc/systemd/system/timers.target.wants/phpsessionclean.timer → /lib/systemd/system/phpsessionclean.timer.
+7[38;0f[42m[30mProgress: [ 62%][49m[39m [###################################################...............................] 8Setting up php7.2-common (7.2.24-0ubuntu0.18.04.3) ...
+7[38;0f[42m[30mProgress: [ 64%][49m[39m [####################################################..............................] 8
+Creating config file /etc/php/7.2/mods-available/calendar.ini with new version
+
+Creating config file /etc/php/7.2/mods-available/ctype.ini with new version
+
+Creating config file /etc/php/7.2/mods-available/exif.ini with new version
+
+Creating config file /etc/php/7.2/mods-available/fileinfo.ini with new version
+
+Creating config file /etc/php/7.2/mods-available/ftp.ini with new version
+
+Creating config file /etc/php/7.2/mods-available/gettext.ini with new version
+
+Creating config file /etc/php/7.2/mods-available/iconv.ini with new version
+
+Creating config file /etc/php/7.2/mods-available/pdo.ini with new version
+
+Creating config file /etc/php/7.2/mods-available/phar.ini with new version
+
+Creating config file /etc/php/7.2/mods-available/posix.ini with new version
+
+Creating config file /etc/php/7.2/mods-available/shmop.ini with new version
+
+Creating config file /etc/php/7.2/mods-available/sockets.ini with new version
+
+Creating config file /etc/php/7.2/mods-available/sysvmsg.ini with new version
+
+Creating config file /etc/php/7.2/mods-available/sysvsem.ini with new version
+
+Creating config file /etc/php/7.2/mods-available/sysvshm.ini with new version
+
+Creating config file /etc/php/7.2/mods-available/tokenizer.ini with new version
+7[38;0f[42m[30mProgress: [ 66%][49m[39m [#####################################################.............................] 8Setting up php7.2-readline (7.2.24-0ubuntu0.18.04.3) ...
+7[38;0f[42m[30mProgress: [ 67%][49m[39m [#######################################################...........................] 8
+Creating config file /etc/php/7.2/mods-available/readline.ini with new version
+7[38;0f[42m[30mProgress: [ 69%][49m[39m [########################################################..........................] 8Setting up php7.2-json (7.2.24-0ubuntu0.18.04.3) ...
+7[38;0f[42m[30mProgress: [ 70%][49m[39m [#########################################################.........................] 8
+Creating config file /etc/php/7.2/mods-available/json.ini with new version
+7[38;0f[42m[30mProgress: [ 72%][49m[39m [###########################################################.......................] 8Setting up php7.2-opcache (7.2.24-0ubuntu0.18.04.3) ...
+7[38;0f[42m[30mProgress: [ 74%][49m[39m [############################################################......................] 8
+Creating config file /etc/php/7.2/mods-available/opcache.ini with new version
+7[38;0f[42m[30mProgress: [ 75%][49m[39m [#############################################################.....................] 8Setting up php7.2-mysql (7.2.24-0ubuntu0.18.04.3) ...
+7[38;0f[42m[30mProgress: [ 77%][49m[39m [###############################################################...................] 8
+Creating config file /etc/php/7.2/mods-available/mysqlnd.ini with new version
+
+Creating config file /etc/php/7.2/mods-available/mysqli.ini with new version
+
+Creating config file /etc/php/7.2/mods-available/pdo_mysql.ini with new version
+7[38;0f[42m[30mProgress: [ 79%][49m[39m [################################################################..................] 8Setting up php7.2-cli (7.2.24-0ubuntu0.18.04.3) ...
+7[38;0f[42m[30mProgress: [ 80%][49m[39m [#################################################################.................] 8update-alternatives: using /usr/bin/php7.2 to provide /usr/bin/php (php) in auto mode
+update-alternatives: using /usr/bin/phar7.2 to provide /usr/bin/phar (phar) in auto mode
+update-alternatives: using /usr/bin/phar.phar7.2 to provide /usr/bin/phar.phar (phar.phar) in auto mode
+
+Creating config file /etc/php/7.2/cli/php.ini with new version
+7[38;0f[42m[30mProgress: [ 82%][49m[39m [###################################################################...............] 8Setting up libapache2-mod-php7.2 (7.2.24-0ubuntu0.18.04.3) ...
+7[38;0f[42m[30mProgress: [ 84%][49m[39m [####################################################################..............] 8
+Creating config file /etc/php/7.2/apache2/php.ini with new version
+apache2_invoke: Enable module php7.2
+7[38;0f[42m[30mProgress: [ 85%][49m[39m [#####################################################################.............] 8Setting up php-mysql (1:7.2+60ubuntu1) ...
+7[38;0f[42m[30mProgress: [ 87%][49m[39m [#######################################################################...........] 87[38;0f[42m[30mProgress: [ 89%][49m[39m [########################################################################..........] 8Setting up libapache2-mod-php (1:7.2+60ubuntu1) ...
+7[38;0f[42m[30mProgress: [ 90%][49m[39m [#########################################################################.........] 87[38;0f[42m[30mProgress: [ 92%][49m[39m [###########################################################################.......] 8Setting up php7.2 (7.2.24-0ubuntu0.18.04.3) ...
+7[38;0f[42m[30mProgress: [ 93%][49m[39m [############################################################################......] 87[38;0f[42m[30mProgress: [ 95%][49m[39m [#############################################################################.....] 8Setting up php (1:7.2+60ubuntu1) ...
+7[38;0f[42m[30mProgress: [ 97%][49m[39m [###############################################################################...] 87[38;0f[42m[30mProgress: [ 98%][49m[39m [################################################################################..] 8Processing triggers for man-db (2.8.3-2ubuntu0.1) ...
+
+7[0;38r8[1A[J]0;anjana@anjana-desktop: ~/2803[01;32manjana@anjana-desktop[00m:[01;34m~/2803[00m$ sudo systemctl restart apache2
+]0;anjana@anjana-desktop: ~/2803[01;32manjana@anjana-desktop[00m:[01;34m~/2803[00m$ nano ifo.html
+[?1049h[22;0;0t[1;38r(B[m[4l[?7h[39;49m[?1h=[?1h=[?1h=[?25l[49m(B[m[H[2J[36;47H(B[0;7m[ New File ](B[m[H(B[0;7m  GNU nano 2.9.3                                   ifo.html                                             [1;103H(B[m[37d(B[0;7m^G(B[m Get Help   (B[0;7m^O(B[m Write Out  (B[0;7m^W(B[m Where Is   (B[0;7m^K(B[m Cut Text   (B[0;7m^J(B[m Justify    (B[0;7m^C(B[m Cur Pos    (B[0;7mM-U(B[m Undo[38d(B[0;7m^X(B[m Exit[15G(B[0;7m^R(B[m Read File  (B[0;7m^\(B[m Replace    (B[0;7m^U(B[m Uncut Text (B[0;7m^T(B[m To Spell   (B[0;7m^_(B[m Go To Line (B[0;7mM-E(B[m Redo[36d[3d[49m(B[m[?12l[?25h[?25l[1;95H(B[0;7mModified(B[m[3d<?php[4dphpinfo();[5d?>[?12l[?25h[?25l[36d(B[0;7mSave modified buffer?  (Answering "No" will DISCARD changes.)                                           [37;1H Y(B[m Yes[K[38d(B[0;7m N(B[m No  [15G  (B[0;7m^C(B[m Cancel[K[36;63H[?12l[?25h[?25l[37d(B[0;7m^G(B[m Get Help[37;27H(B[0;7mM-D(B[m DOS Format[37;53H(B[0;7mM-A(B[m Append[37;79H(B[0;7mM-B(B[m Backup File[38d(B[0;7m^C(B[m Cancel[17G          (B[0;7mM-M(B[m Mac Format[38;53H(B[0;7mM-P(B[m Prepend[38;79H(B[0;7m^T(B[m To Files[36d(B[0;7mFile Name to Write: ifo.html                                 (B[m[36;29H[?12l[?25h[?25l[36;29H[?12l[?25h[?25l[K[1;103H[1;95H(B[0;7m        (B[m[36;44H(B[0;7m[ Wrote 3 lines ](B[m[J[38;104H[?12l[?25h[38;1H[?1049l[23;0;0t[?1l>]0;anjana@anjana-desktop: ~/2803[01;32manjana@anjana-desktop[00m:[01;34m~/2803[00m$ nano ifo.html[C[C[Csudo systemctl restart apache2apt install php libapache2-mod-php php-mysql[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[28Pmysql -u root -pservice mysql startapt install mysql-server [4Pservice apache2 startapt-get install apache2[9Pupdate[12Pcd 2803[3@mkdir[C[C[C[C[Csudo apt-get remove dbconfig-php[9Pautoremovepurge php*[8@remove –[C[C[C[C[C[C[C[C[C[C[10@1st Step:-[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[15Psudo apt-get autoremove -y[43@remove --purge mysql-server mysql-client mysql-common[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cgedit work.txt[Kscript work.tx[K[K[K[K[K[K[K[K[K[K[K[K[K[Krename ifo.html[1P[1P[1P[1P ifo.html[1P[C[1P ifo.htmlm ifo.htmlv ifo.html[C[C[C[C[C[C[C[C[C ifo.php
+]0;anjana@anjana-desktop: ~/2803[01;32manjana@anjana-desktop[00m:[01;34m~/2803[00m$ mv ifo.html i[K[K[K[K[K[Kphp infp[Ko.php
+]0;anjana@anjana-desktop: ~/2803[01;32manjana@anjana-desktop[00m:[01;34m~/2803[00m$ nano index.php
+[?1049h[22;0;0t[1;38r(B[m[4l[?7h[39;49m[?1h=[?1h=[?1h=[?25l[49m(B[m[H[2J[36;47H(B[0;7m[ New File ](B[m[H(B[0;7m  GNU nano 2.9.3                                  index.php                                             [1;103H(B[m[37d(B[0;7m^G(B[m Get Help   (B[0;7m^O(B[m Write Out  (B[0;7m^W(B[m Where Is   (B[0;7m^K(B[m Cut Text   (B[0;7m^J(B[m Justify    (B[0;7m^C(B[m Cur Pos    (B[0;7mM-U(B[m Undo[38d(B[0;7m^X(B[m Exit[15G(B[0;7m^R(B[m Read File  (B[0;7m^\(B[m Replace    (B[0;7m^U(B[m Uncut Text (B[0;7m^T(B[m To Spell   (B[0;7m^_(B[m Go To Line (B[0;7mM-E(B[m Redo[36d[3d[49m(B[m[?12l[?25h[?25l[1;95H(B[0;7mModified(B[m[3dhttp://localhost/info.php[?12l[?25h[?25l [36d[K[3;25H[?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[38;1H[?1049l[23;0;0t[?1l>[?1049h[22;0;0t[1;24r[?12l[?25h[39;49m]104(B[m[4l[?7h[H[2J(B[0;7m  GNU nano 2.9.3                                  index.php                     [3;1H(B[mht[?1h=[?1h=[?1h=[H[2J(B[0;7m  GNU nano 2.9.3                                  index.php                     [3;1H(B[mht[23d[1;39H(B[0;7mindex.php            [1;71HModified(B[m[23d(B[0;7m^G(B[m Get Help  (B[0;7m^O(B[m Write Out (B[0;7m^W(B[m Where Is  (B[0;7m^K(B[m Cut Text  (B[0;7m^J(B[m Justify   (B[0;7m^C(B[m Cur Pos[24d(B[0;7m^X(B[m Exit[14G(B[0;7m^R(B[m Read File (B[0;7m^\(B[m Replace   (B[0;7m^U(B[m Uncut Text(B[0;7m^T(B[m To Spell  (B[0;7m^_(B[m Go To Line[22d[?25l[3dht[?12l[?25h[?25l[?12l[?25h[?25l [?12l[?25h[?25l[K[?12l[?25h[?25l[?12l[?25h[?25l(B[0;1m[32m<?php[4d[36mecho[39m(B[m (B[0;1m[33m"Hey!! I am Anjana"[39m(B[m;[5d(B[0;1m[32m?>(B[0m[42m [49m(B[m[?12l[?25h[?25l[22d(B[0;7mSave modified buffer?  (Answering "No" will DISCARD changes.)                   [23;1H Y(B[m Yes[K[24d(B[0;7m N(B[m No  [14G   (B[0;7m^C(B[m Cancel[K[22;63H[?12l[?25h[?25l[23d(B[0;7m^G(B[m Get Help[23;21H(B[0;7mM-D(B[m DOS Format[41G(B[0;7mM-A(B[m Append[23;61H(B[0;7mM-B(B[m Backup File[24d(B[0;7m^C(B[m Cancel[17G    (B[0;7mM-M(B[m Mac Format[41G(B[0;7mM-P(B[m Prepend[24;61H(B[0;7m^T(B[m To Files[22d(B[0;7mFile Name to Write: index.php                                (B[m[22;30H[?12l[?25h[?25l[22;30H[?12l[?25h[?25l[K[1;79H[1;71H(B[0;7m        (B[m[22;32H(B[0;7m[ Wrote 3 lines ](B[m[J[24;80H[?12l[?25h[24;1H[?1049l[23;0;0t[?1l>]0;anjana@anjana-desktop: ~/2803[01;32manjana@anjana-desktop[00m:[01;34m~/2803[00m$ exit
+exit
+
+Script done on 2020-03-28 20:21:39+0530
