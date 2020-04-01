@@ -1,0 +1,58 @@
+CEC CS 18 C 09
+ANJANA S
+
+01-04-2020
+--------------------------------
+#1: Aim/task
+
+ #S6
+Shell script to implement a menu driven calculator with following functions 
+
+1.  Addition 
+2.  Subtraction 
+3.  Multiplication 
+4.  Division 
+5.  Modulus
+
+---------------------------------
+Command/Shell script/Program name
+
+#Shell script:
+cal.sh
+
+
+#Modify permission
+chmod +x cal.sh
+
+
+#Run script
+./cal.sh
+
+
+---------------------------------
+
+Input & Output (whichever is applicable)
+
+Enter two numbers:
+9
+3
+1.Addition
+2.Subtraction
+3.Multiplication
+4.Division
+5.Modulus
+Enter your choice
+1
+Sum =12
+Press y to continue:
+
+
+-------------------
+Remarks if any:
+
+
+
+
+
+-------------------------------------
+-------------------------------------

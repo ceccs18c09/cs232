@@ -1,0 +1,114 @@
+Script started on 2020-04-01 15:59:02+0530
+]0;anjana@anjana-desktop: ~/0104[01;32manjana@anjana-desktop[00m:[01;34m~/0104[00m$ sftp cs18c09@14.139.189.217[11Pgedit report.txtls -a linux-5.5.9[2Pscript work.txt[8Pcd 3003[3@mkdir[C[C[C[C[C[6Pexitmake -j $(nproc)sudo apt-get install build-essential libncurses-dev
+v bison flex libssl-dev libelf-dev[A[12Pcp -v /boot/config-$(uname -r) .config
+
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[24Pd linux-5.5.9wget https://cdn.kernel.org/pub/linux/kernel/v5.x/l
+linux-5.5.9.tar.xz[A
+]0;anjana@anjana-desktop: ~/0104[01;32manjana@anjana-desktop[00m:[01;34m~/0104[00m$ [23Psftp cs18c09@14.139.189.217
+
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ccd 2803[Ksftp cs18c09@14.139.189.217wget https://cdn.kernel.org/pub/linux/kernel/v5.x/l
+linux-5.5.9.tar.xz[A
+]0;anjana@anjana-desktop: ~/0104[01;32manjana@anjana-desktop[00m:[01;34m~/0104[00m$ cd linux-5.5.9[K
+
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cp -v /boot/config-$(uname -r) .config
+[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Csudo apt-get install build-essential libncurses-dev
+v bison flex libssl-dev libelf-dev[Amake -j $(nproc)[K
+
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Csudo apt-get install build-essential libncurses-dev
+v bison flex libssl-dev libelf-dev[A[12Pcp -v /boot/config-$(uname -r) .config
+
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[24Pd linux-5.5.9wget https://cdn.kernel.org/pub/linux/kernel/v5.x/l
+linux-5.5.9.tar.xz[A
+]0;anjana@anjana-desktop: ~/0104[01;32manjana@anjana-desktop[00m:[01;34m~/0104[00m$ [23Psftp cs18c09@14.139.189.217
+
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ccd 2803[K[3Pexitgedit report.txt[C[C[C[C[C[K[K[K[K[K[K[K[K[K[K[K cal.sh
+]0;anjana@anjana-desktop: ~/0104[01;32manjana@anjana-desktop[00m:[01;34m~/0104[00m$ chmod +x /cal.sh
+chmod: cannot access '/cal.sh': No such file or directory
+]0;anjana@anjana-desktop: ~/0104[01;32manjana@anjana-desktop[00m:[01;34m~/0104[00m$ chmod +x /cal.sh[1Pcal.sh
+]0;anjana@anjana-desktop: ~/0104[01;32manjana@anjana-desktop[00m:[01;34m~/0104[00m$ chmod +x cal.sh/cal.sh[1P/cal.sh[1P/cal.sh[1P/cal.sh[1P/cal.sh[1P/cal.sh[1P/cal.sh[1P/cal.sh[1P/cal.sh[1P/cal.sh
+bash: /cal.sh: No such file or directory
+]0;anjana@anjana-desktop: ~/0104[01;32manjana@anjana-desktop[00m:[01;34m~/0104[00m$ /cal.sh./cal.sh
+[3J[H[2JEnter two numbers:
+2
+3 1
+1.Addition
+2.Subtraction
+3.Multiplication
+4.Division
+5.Modulus
+Enter your choice
+1
+Sum =3
+Press y to continue:
+y
+1.Addition
+2.Subtraction
+3.Multiplication
+4.Division
+5.Modulus
+Enter your choice
+2
+Differnce = 1
+Press y to continue:
+3
+]0;anjana@anjana-desktop: ~/0104[01;32manjana@anjana-desktop[00m:[01;34m~/0104[00m$ ./cal.sh
+[3J[H[2JEnter two numbers:
+9
+3
+1.Addition
+2.Subtraction
+3.Multiplication
+4.Division
+5.Modulus
+Enter your choice
+1
+Sum =12
+Press y to continue:
+y
+1.Addition
+2.Subtraction
+3.Multiplication
+4.Division
+5.Modulus
+Enter your choice
+2
+Differnce = 6
+Press y to continue:
+y
+1.Addition
+2.Subtraction
+3.Multiplication
+4.Division
+5.Modulus
+Enter your choice
+3
+Product = 27
+Press y to continue:
+y
+1.Addition
+2.Subtraction
+3.Multiplication
+4.Division
+5.Modulus
+Enter your choice
+4
+Quotient = 3
+Press y to continue:
+y
+1.Addition
+2.Subtraction
+3.Multiplication
+4.Division
+5.Modulus
+Enter your choice
+5
+Remainder = 0
+Press y to continue:
+o N
+]0;anjana@anjana-desktop: ~/0104[01;32manjana@anjana-desktop[00m:[01;34m~/0104[00m$ 
+[K]0;anjana@anjana-desktop: ~/0104[01;32manjana@anjana-desktop[00m:[01;34m~/0104[00m$ E[Kexo[Kit
+exit
+
+Script done on 2020-04-01 16:29:51+0530
