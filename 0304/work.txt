@@ -1,0 +1,236 @@
+Script started on 2020-04-03 15:08:55+0530
+]0;anjana@anjana-desktop: ~/0304[01;32manjana@anjana-desktop[00m:[01;34m~/0304[00m$ exit./sysconfig2.sh[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Kgedit sysconfig1.sh
+]0;anjana@anjana-desktop: ~/0304[01;32manjana@anjana-desktop[00m:[01;34m~/0304[00m$ gedit sysconfig1.shexit[K./sysconfig2.shgedit sysconfig2.shecho -e "\nFile system (Mounted):"
+[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[19P./sysconfig2.shgedit sysconfig2.sh[4P./sysconfig2.shgedit sysconfig2.sh[4P./sysconfig2.shgedit sysconfig2.sh[4P./sysconfig2.shgedit sysconfig2.sh[4P./sysconfig2.shgedit sysconfig2.sh[4P./sysconfig2.shgedit sysconfig2.sh[4P./sysconfig2.shgedit sysconfig2.sh[4P./sysconfig2.shchmod +x sysconfig2.sh[3Pgedit[C[C[C[C[C[C[C[C[C[C[C[C[C[C[3@chmod +x[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1P.sh1.sh
+]0;anjana@anjana-desktop: ~/0304[01;32manjana@anjana-desktop[00m:[01;34m~/0304[00m$ chmod +x sysconfig1.sh[3Pgedit[C[C[C[C[C[C[C[C[C[C[C[C[C[Cexit[K./sysconfig2.shgedit sysconfig2.sh[4P./sysconfig2.sh[1P.sh1.sh
+
+Currently logged user :anjana
+
+
+ Current login name :anjana
+
+
+Current shell: /bin/bash
+
+Home directory: /home/anjana
+
+Operating system type:
+GNU/Linux
+
+Current path setting: /usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin
+
+
+Current working directory:
+/home/anjana/0304
+
+
+Number of users currently logged in:
+anjana   :0           2020-04-03 13:58 (:0)
+]0;anjana@anjana-desktop: ~/0304[01;32manjana@anjana-desktop[00m:[01;34m~/0304[00m$ 
+[K]0;anjana@anjana-desktop: ~/0304[01;32manjana@anjana-desktop[00m:[01;34m~/0304[00m$ ./sysconfig1.shchmod +x sysconfig1.sh[3Pgedit[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+
+(gedit:3766): Gtk-[1;33mWARNING[0m **: [34m15:32:15.018[0m: gtk_widget_size_allocate(): attempt to allocate widget with width -28 and height 32
+]0;anjana@anjana-desktop: ~/0304[01;32manjana@anjana-desktop[00m:[01;34m~/0304[00m$ gedit sysconfig1.sh[4P./sysconfig1.shchmod +x sysconfig1.sh[3Pgedit[C[C[C[C[C[C[C[C[C[C[C[C[C[Cexit[K./sysconfig2.shgedit sysconfig2.sh
+
+(gedit:3777): Gtk-[1;33mWARNING[0m **: [34m15:34:14.948[0m: gtk_widget_size_allocate(): attempt to allocate widget with width -28 and height 32
+
+(gedit:3777): Gtk-[1;33mWARNING[0m **: [34m15:34:22.189[0m: gtk_widget_size_allocate(): attempt to allocate widget with width -28 and height 32
+]0;anjana@anjana-desktop: ~/0304[01;32manjana@anjana-desktop[00m:[01;34m~/0304[00m$ gedit sysconfig2.sh1.sh[4P./sysconfig1.shchmod +x sysconfig1.sh[1P.sh2.sh
+]0;anjana@anjana-desktop: ~/0304[01;32manjana@anjana-desktop[00m:[01;34m~/0304[00m$ chmod +x sysconfig2.sh[3Pgedit[C[C[C[C[C[C[C[C[C[C[C[C[C[C1.sh[4P./sysconfig1.sh
+
+Currently logged user :anjana
+
+
+ Current login name :anjana
+
+
+Current shell: /bin/bash
+
+Home directory: /home/anjana
+
+Operating system type:
+GNU/Linux
+
+
+Current path setting: /usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin
+
+
+Current working directory:
+/home/anjana/0304
+
+
+Number of users currently logged in:
+anjana   :0           2020-04-03 13:58 (:0)
+]0;anjana@anjana-desktop: ~/0304[01;32manjana@anjana-desktop[00m:[01;34m~/0304[00m$ ./sysconfig1.shchmod +x sysconfig2.sh[7P./sysconfig1.sh[1P.sh2.sh
+
+OS--version ,release number:
+
+NAME="Ubuntu"
+VERSION="18.04.4 LTS (Bionic Beaver)"
+ID=ubuntu
+ID_LIKE=debian
+PRETTY_NAME="Ubuntu 18.04.4 LTS"
+VERSION_ID="18.04"
+HOME_URL="https://www.ubuntu.com/"
+SUPPORT_URL="https://help.ubuntu.com/"
+BUG_REPORT_URL="https://bugs.launchpad.net/ubuntu/"
+PRIVACY_POLICY_URL="https://www.ubuntu.com/legal/terms-and-policies/privacy-policy"
+VERSION_CODENAME=bionic
+UBUNTU_CODENAME=bionic
+
+OS--Kernel version:
+
+5.3.0-42-generic
+
+ All available shell:
+
+# /etc/shells: valid login shells
+/bin/sh
+/bin/bash
+/bin/rbash
+/bin/dash
+
+ CPU information:
+
+processor	: 0
+vendor_id	: GenuineIntel
+cpu family	: 6
+model		: 58
+model name	: Intel(R) Pentium(R) CPU G2020 @ 2.90GHz
+stepping	: 9
+microcode	: 0x21
+cpu MHz		: 1865.167
+cache size	: 3072 KB
+physical id	: 0
+siblings	: 2
+core id		: 0
+cpu cores	: 2
+apicid		: 0
+initial apicid	: 0
+fpu		: yes
+fpu_exception	: yes
+cpuid level	: 13
+wp		: yes
+flags		: fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush dts acpi mmx fxsr sse sse2 ss ht tm pbe syscall nx rdtscp lm constant_tsc arch_perfmon pebs bts rep_good nopl xtopology nonstop_tsc cpuid aperfmperf pni pclmulqdq dtes64 monitor ds_cpl vmx est tm2 ssse3 cx16 xtpr pdcm pcid sse4_1 sse4_2 popcnt tsc_deadline_timer xsave lahf_lm cpuid_fault epb pti ssbd ibrs ibpb stibp tpr_shadow vnmi flexpriority ept vpid fsgsbase smep erms xsaveopt dtherm arat pln pts md_clear flush_l1d
+bugs		: cpu_meltdown spectre_v1 spectre_v2 spec_store_bypass l1tf mds swapgs itlb_multihit
+bogomips	: 5786.69
+clflush size	: 64
+cache_alignment	: 64
+address sizes	: 36 bits physical, 48 bits virtual
+power management:
+
+processor	: 1
+vendor_id	: GenuineIntel
+cpu family	: 6
+model		: 58
+model name	: Intel(R) Pentium(R) CPU G2020 @ 2.90GHz
+stepping	: 9
+microcode	: 0x21
+cpu MHz		: 1645.646
+cache size	: 3072 KB
+physical id	: 0
+siblings	: 2
+core id		: 1
+cpu cores	: 2
+apicid		: 2
+initial apicid	: 2
+fpu		: yes
+fpu_exception	: yes
+cpuid level	: 13
+wp		: yes
+flags		: fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush dts acpi mmx fxsr sse sse2 ss ht tm pbe syscall nx rdtscp lm constant_tsc arch_perfmon pebs bts rep_good nopl xtopology nonstop_tsc cpuid aperfmperf pni pclmulqdq dtes64 monitor ds_cpl vmx est tm2 ssse3 cx16 xtpr pdcm pcid sse4_1 sse4_2 popcnt tsc_deadline_timer xsave lahf_lm cpuid_fault epb pti ssbd ibrs ibpb stibp tpr_shadow vnmi flexpriority ept vpid fsgsbase smep erms xsaveopt dtherm arat pln pts md_clear flush_l1d
+bugs		: cpu_meltdown spectre_v1 spectre_v2 spec_store_bypass l1tf mds swapgs itlb_multihit
+bogomips	: 5786.69
+clflush size	: 64
+cache_alignment	: 64
+address sizes	: 36 bits physical, 48 bits virtual
+power management:
+
+
+  Memory information:
+
+              total        used        free      shared  buff/cache   available
+Mem:           1819        1061         239         180         518         374
+Swap:          2047         557        1490
+
+  Hard disc information:
+
+Filesystem      Size  Used Avail Use% Mounted on
+udev            887M     0  887M   0% /dev
+tmpfs           182M  1.8M  181M   1% /run
+/dev/sda8        46G   30G   15G  67% /
+tmpfs           910M   41M  870M   5% /dev/shm
+tmpfs           5.0M  4.0K  5.0M   1% /run/lock
+tmpfs           910M     0  910M   0% /sys/fs/cgroup
+/dev/loop0       49M   49M     0 100% /snap/gtk-common-themes/1474
+/dev/loop1       15M   15M     0 100% /snap/gnome-characters/399
+/dev/loop4      1.0M  1.0M     0 100% /snap/gnome-logs/93
+/dev/loop3      4.3M  4.3M     0 100% /snap/gnome-calculator/544
+/dev/loop5      1.0M  1.0M     0 100% /snap/gnome-logs/81
+/dev/loop2       94M   94M     0 100% /snap/core/8935
+/dev/loop8       55M   55M     0 100% /snap/core18/1705
+/dev/loop6       45M   45M     0 100% /snap/gtk-common-themes/1440
+/dev/loop7      4.4M  4.4M     0 100% /snap/gnome-calculator/704
+/dev/loop11     3.8M  3.8M     0 100% /snap/gnome-system-monitor/135
+/dev/loop12      15M   15M     0 100% /snap/gnome-characters/495
+/dev/loop10      92M   92M     0 100% /snap/core/8689
+/dev/loop13      55M   55M     0 100% /snap/core18/1668
+/dev/loop9      161M  161M     0 100% /snap/gnome-3-28-1804/116
+/dev/loop14     3.8M  3.8M     0 100% /snap/gnome-system-monitor/127
+tmpfs           182M   16K  182M   1% /run/user/121
+tmpfs           182M   52K  182M   1% /run/user/1000
+
+File system (Mounted):
+
+sysfs                                               on  /sys                             type  sysfs            (rw,nosuid,nodev,noexec,relatime)
+proc                                                on  /proc                            type  proc             (rw,nosuid,nodev,noexec,relatime)
+udev                                                on  /dev                             type  devtmpfs         (rw,nosuid,relatime,size=907368k,nr_inodes=226842,mode=755)
+devpts                                              on  /dev/pts                         type  devpts           (rw,nosuid,noexec,relatime,gid=5,mode=620,ptmxmode=000)
+tmpfs                                               on  /run                             type  tmpfs            (rw,nosuid,noexec,relatime,size=186340k,mode=755)
+/dev/sda8                                           on  /                                type  ext4             (rw,relatime,errors=remount-ro)
+securityfs                                          on  /sys/kernel/security             type  securityfs       (rw,nosuid,nodev,noexec,relatime)
+tmpfs                                               on  /dev/shm                         type  tmpfs            (rw,nosuid,nodev)
+tmpfs                                               on  /run/lock                        type  tmpfs            (rw,nosuid,nodev,noexec,relatime,size=5120k)
+tmpfs                                               on  /sys/fs/cgroup                   type  tmpfs            (ro,nosuid,nodev,noexec,mode=755)
+cgroup                                              on  /sys/fs/cgroup/unified           type  cgroup2          (rw,nosuid,nodev,noexec,relatime,nsdelegate)
+cgroup                                              on  /sys/fs/cgroup/systemd           type  cgroup           (rw,nosuid,nodev,noexec,relatime,xattr,name=systemd)
+pstore                                              on  /sys/fs/pstore                   type  pstore           (rw,nosuid,nodev,noexec,relatime)
+cgroup                                              on  /sys/fs/cgroup/hugetlb           type  cgroup           (rw,nosuid,nodev,noexec,relatime,hugetlb)
+cgroup                                              on  /sys/fs/cgroup/freezer           type  cgroup           (rw,nosuid,nodev,noexec,relatime,freezer)
+cgroup                                              on  /sys/fs/cgroup/blkio             type  cgroup           (rw,nosuid,nodev,noexec,relatime,blkio)
+cgroup                                              on  /sys/fs/cgroup/pids              type  cgroup           (rw,nosuid,nodev,noexec,relatime,pids)
+cgroup                                              on  /sys/fs/cgroup/cpu,cpuacct       type  cgroup           (rw,nosuid,nodev,noexec,relatime,cpu,cpuacct)
+cgroup                                              on  /sys/fs/cgroup/perf_event        type  cgroup           (rw,nosuid,nodev,noexec,relatime,perf_event)
+cgroup                                              on  /sys/fs/cgroup/memory            type  cgroup           (rw,nosuid,nodev,noexec,relatime,memory)
+cgroup                                              on  /sys/fs/cgroup/devices           type  cgroup           (rw,nosuid,nodev,noexec,relatime,devices)
+cgroup                                              on  /sys/fs/cgroup/rdma              type  cgroup           (rw,nosuid,nodev,noexec,relatime,rdma)
+cgroup                                              on  /sys/fs/cgroup/net_cls,net_prio  type  cgroup           (rw,nosuid,nodev,noexec,relatime,net_cls,net_prio)
+cgroup                                              on  /sys/fs/cgroup/cpuset            type  cgroup           (rw,nosuid,nodev,noexec,relatime,cpuset)
+mqueue                                              on  /dev/mqueue                      type  mqueue           (rw,relatime)
+hugetlbfs                                           on  /dev/hugepages                   type  hugetlbfs        (rw,relatime,pagesize=2M)
+systemd-1                                           on  /proc/sys/fs/binfmt_misc         type  autofs           (rw,relatime,fd=33,pgrp=1,timeout=0,minproto=5,maxproto=5,direct,pipe_ino=13806)
+debugfs                                             on  /sys/kernel/debug                type  debugfs          (rw,relatime)
+configfs                                            on  /sys/kernel/config               type  configfs         (rw,relatime)
+fusectl                                             on  /sys/fs/fuse/connections         type  fusectl          (rw,relatime)
+/var/lib/snapd/snaps/gtk-common-themes_1474.snap    on  /snap/gtk-common-themes/1474     type  squashfs         (ro,nodev,relatime,x-gdu.hide)
+/var/lib/snapd/snaps/gnome-characters_399.snap      on  /snap/gnome-characters/399       type  squashfs         (ro,nodev,relatime,x-gdu.hide)
+/var/lib/snapd/snaps/gnome-logs_93.snap             on  /snap/gnome-logs/93              type  squashfs         (ro,nodev,relatime,x-gdu.hide)
+/var/lib/snapd/snaps/gnome-calculator_544.snap      on  /snap/gnome-calculator/544       type  squashfs         (ro,nodev,relatime,x-gdu.hide)
+/var/lib/snapd/snaps/gnome-logs_81.snap             on  /snap/gnome-logs/81              type  squashfs         (ro,nodev,relatime,x-gdu.hide)
+/var/lib/snapd/snaps/core_8935.snap                 on  /snap/core/8935                  type  squashfs         (ro,nodev,relatime,x-gdu.hide)
+/var/lib/snapd/snaps/core18_1705.snap               on  /snap/core18/1705                type  squashfs         (ro,nodev,relatime,x-gdu.hide)
+/var/lib/snapd/snaps/gtk-common-themes_1440.snap    on  /snap/gtk-common-themes/1440     type  squashfs         (ro,nodev,relatime,x-gdu.hide)
+/var/lib/snapd/snaps/gnome-calculator_704.snap      on  /snap/gnome-calculator/704       type  squashfs         (ro,nodev,relatime,x-gdu.hide)
+/var/lib/snapd/snaps/gnome-system-monitor_135.snap  on  /snap/gnome-system-monitor/135   type  squashfs         (ro,nodev,relatime,x-gdu.hide)
+/var/lib/snapd/snaps/gnome-characters_495.snap      on  /snap/gnome-characters/495       type  squashfs         (ro,nodev,relatime,x-gdu.hide)
+/var/lib/snapd/snaps/core_8689.snap                 on  /snap/core/8689                  type  squashfs         (ro,nodev,relatime,x-gdu.hide)
+/var/lib/snapd/snaps/core18_1668.snap               on  /snap/core18/1668                type  squashfs         (ro,nodev,relatime,x-gdu.hide)
+/var/lib/snapd/snaps/gnome-3-28-1804_116.snap       on  /snap/gnome-3-28-1804/116        type  squashfs         (ro,nodev,relatime,x-gdu.hide)
+/var/lib/snapd/snaps/gnome-system-monitor_127.snap  on  /snap/gnome-system-monitor/127   type  squashfs         (ro,nodev,relatime,x-gdu.hide)
+tmpfs                                               on  /run/user/121                    type  tmpfs            (rw,nosuid,nodev,relatime,size=186340k,mode=700,uid=121,gid=125)
+tmpfs                                               on  /run/user/1000                   type  tmpfs            (rw,nosuid,nodev,relatime,size=186340k,mode=700,uid=1000,gid=1000)
+gvfsd-fuse                                          on  /run/user/1000/gvfs              type  fuse.gvfsd-fuse  (rw,nosuid,nodev,relatime,user_id=1000,group_id=1000)
+]0;anjana@anjana-desktop: ~/0304[01;32manjana@anjana-desktop[00m:[01;34m~/0304[00m$ e[Kexit
+exit
+
+Script done on 2020-04-03 16:02:52+0530
