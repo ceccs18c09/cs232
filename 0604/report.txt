@@ -1,0 +1,53 @@
+CEC CS 18 C 09
+ANJANA S
+
+06-04-2020
+
+Public ip:117.222.147.60
+
+
+#1: Aim/task
+
+Linux installation (t6)
+---------------------------------
+
+Command/Shell script/Program name
+-------------------------------
+
+	Ubuntu 18.04 LTS installation using pendrive
+
+        # updates grub configuration
+	sudo update-grub 
+
+
+        # displays the grub menu
+        grub-emu   
+
+      
+        # details of installed linux distro
+        lsb_release -a  
+
+
+        # list out partitions
+        sudo parted -l  
+---------------------------------
+Output
+
+-------------------------------------
+
+	Images 1-6(.jpeg) shows installation steps.
+
+	Image 7.jpeg shows grub menu
+
+	Image pic.png shows details of the installed linux distribution,
+                        generates grub configuration file,
+                        partition
+
+	Ubuntu 18.04 is installed alongside windows.
+
+
+------------------------------------------
+Remarks if any:
+Ubuntu 18.04 LTS was erased and reinstall
+
+------------------------------------------
